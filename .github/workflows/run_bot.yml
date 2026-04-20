@@ -21,7 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: 安装依赖包
-        run: pip install feedparser zhipuai
+        run: pip install feedparser zhipuai sniffio httpx
 
       - name: 运行 AI 读报机器人
         env:
