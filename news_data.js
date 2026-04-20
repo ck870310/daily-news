@@ -1,0 +1,222 @@
+const newsData = [
+    {
+        "id": 1,
+        "title": "特朗普：美国海军扣押违反封锁令的伊朗船只",
+        "summary": "AI总结：特朗普表示美国海军扣押了违反封锁令的伊朗船只，美伊双方关于和平谈判存在分歧，油价上涨。",
+        "source": "FT中文网",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.ftchinese.com/story/001109503",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 2,
+        "title": "特朗普：美国将与伊朗举行新一轮谈判",
+        "summary": "AI总结：美国总统特朗普宣布美国将与伊朗举行新一轮谈判，同时威胁重启轰炸行动，引发战争罪担忧。",
+        "source": "FT中文网",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.ftchinese.com/story/001109496",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 3,
+        "title": "美商务部长称加拿大“太糟糕”",
+        "summary": "AI总结：美国商务部长卢特尼克批评加拿大拖延贸易谈判，称其为‘最糟糕的策略’，指出加拿大抵制导致美国每月损失逾10亿美元贸易额。",
+        "source": "FT中文网",
+        "region": "美国",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109497",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 4,
+        "title": "英国投资者悄然投资字节跳动",
+        "summary": "AI总结：英国投资者布莱克福德在字节跳动投资超5亿美元，看好其相对低估的潜力。",
+        "source": "FT中文网",
+        "region": "其他",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109482",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 5,
+        "title": "百事：伊朗战争可能推高价格",
+        "summary": "AI总结：百事公司表示，伊朗战争可能导致价格上涨，但通过大宗商品对冲操作可部分缓解成本波动的影响。",
+        "source": "FT中文网",
+        "region": "美国",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109478",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 6,
+        "title": "备战中期选举 美国AI行业掷重金支持候选人",
+        "summary": "AI总结：美国加密货币和AI行业在过去一年捐赠约2.5亿美元，支持中期选举国会候选人。",
+        "source": "FT中文网",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.ftchinese.com/story/001109477",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 7,
+        "title": "俄罗斯对乌克兰发起今年最大规模空袭",
+        "summary": "AI总结：俄罗斯在复活节短暂停火后对乌克兰发起今年最大规模空袭，和平谈判停滞。",
+        "source": "FT中文网",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.ftchinese.com/story/001109476",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 8,
+        "title": "中国一季度GDP同比增长5%",
+        "summary": "AI总结：一季度GDP同比增长5%，主要得益于出口、高科技制造和财政刺激，但国内经济依然疲软。",
+        "source": "FT中文网",
+        "region": "中国",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109474",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 9,
+        "title": "中国电池龙头企业加大矿业布局",
+        "summary": "AI总结：中国电池龙头企业宁德时代向新设子公司注资44亿美元，旨在增强对供应链的控制。",
+        "source": "FT中文网",
+        "region": "中国",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109472",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 10,
+        "title": "日产与奇瑞就出让桑德兰工厂产能进行谈判",
+        "summary": "AI总结：日产与奇瑞就出让桑德兰工厂产能进行谈判，老牌汽车制造商为保护欧洲就业岗位展开合作谈判。",
+        "source": "FT中文网",
+        "region": "欧洲",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001109471",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 11,
+        "title": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+        "summary": "AI总结：日本气象厅警告，在接下来的一个星期内可能发生另一次强震，并发布了海啸警报。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 12,
+        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+        "summary": "AI总结：一名男子在路易斯安那州发生大规模枪击事件中杀死七名子女和一个外孙，其中子女年龄在3至11岁之间。",
+        "source": "BBC国际",
+        "region": "美国",
+        "type": "宏观",
+        "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 13,
+        "title": "Oil prices rise after Trump says Iranian ship seized",
+        "summary": "AI总结：特朗普宣布扣留伊朗船只后，油价上涨。能源市场自2月28日美以袭击伊朗以来波动剧烈。",
+        "source": "BBC国际",
+        "region": "美国",
+        "type": "财经",
+        "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 14,
+        "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
+        "summary": "AI总结：伊朗高级政治家告诉BBC，伊朗将决定通过霍尔木兹海峡的通行权，不会放弃对该海峡的控制。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 15,
+        "title": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
+        "summary": "AI总结：乌克兰警察局长在涉嫌逃离致命枪击事件后辞职，涉事警察已被停职，当局正在调查事件经过。",
+        "source": "BBC国际",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.bbc.com/news/articles/c8ejn778j4do?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 16,
+        "title": "New Zealand declares state of emergency in Wellington as floods hit",
+        "summary": "AI总结：新西兰宣布在惠灵顿实施紧急状态，洪水袭击该地区，网上视频显示车辆被淹、树木被连根拔起和房屋被山体滑坡击中。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.bbc.com/news/articles/cly75d9zvj3o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 17,
+        "title": "Rumen Radev's party wins Bulgarian election",
+        "summary": "AI总结：保加利亚进步党赢得选举，在议会获得多数席位。",
+        "source": "BBC国际",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 18,
+        "title": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+        "summary": "AI总结：伊朗女子在美国被捕，涉嫌向苏丹走私武器。",
+        "source": "BBC国际",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.bbc.com/news/articles/ce9m7m1nmdeo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 19,
+        "title": "Rebel Wilson's claims against actress are 'malicious concoctions', Australian court hears",
+        "summary": "AI总结：澳大利亚法院审理威尔逊对某电影明星的诽谤指控，称其指控为恶意捏造。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "财经",
+        "url": "https://www.bbc.com/news/articles/cn4vn021mg9o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 20,
+        "title": "At least 25 killed in firecracker factory blast in India",
+        "summary": "AI总结：印度坦米尔纳德邦一烟花厂发生爆炸，至少25人死亡，多为女性工人。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.bbc.com/news/articles/cp867zy9j6ro?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    }
+];
