@@ -2,7 +2,7 @@ const newsData = [
     {
         "id": 1,
         "title": "美国稀土公司28亿美元收购巴西生产商",
-        "summary": "AI总结：美国一家稀土公司以28亿美元的价格收购了巴西的稀土生产商塞拉维德，旨在建立一个涵盖重稀土和轻稀土供应链的合并实体。此举可能加强美国在稀土领域的全球竞争力，并对全球稀土市场产生重大影响。",
+        "summary": "AI总结：美国一家稀土公司计划以28亿美元收购巴西的稀土生产商，旨在建立一个涵盖重稀土和轻稀土供应链的合并实体。这一交易受到特朗普政府的支持，可能会影响全球稀土供应链的格局。",
         "source": "FT中文网",
         "region": "美国",
         "type": "财经",
@@ -13,7 +13,7 @@ const newsData = [
     {
         "id": 2,
         "title": "法德提议给予乌克兰“象征性”欧盟成员国利益",
-        "summary": "AI总结：法国和德国提议在乌克兰正式加入欧盟之前，给予其象征性的欧盟成员国利益，但这些利益不包括农业补贴和投票权，与乌克兰期望的快速加入欧盟的途径存在差距。",
+        "summary": "AI总结：法国和德国提议在乌克兰正式加入欧盟之前，给予其象征性的成员国利益，这些利益不包括农业补贴和投票权，这与乌克兰希望快速加入欧盟的期望存在差距。",
         "source": "FT中文网",
         "region": "欧洲",
         "type": "政治",
@@ -24,7 +24,7 @@ const newsData = [
     {
         "id": 3,
         "title": "外国车企拥抱中国技术以保持竞争力",
-        "summary": "AI总结：西方汽车制造商为应对在中国市场的销量下滑，正采取‘在中国，为中国’的策略，通过与中国企业合作，利用本土技术提升竞争力。",
+        "summary": "AI总结：西方汽车制造商采用“在中国，为中国”的策略，通过与中国本土技术合作，旨在阻止在华销量下滑，以保持其在全球最大汽车市场的竞争力。",
         "source": "FT中文网",
         "region": "中国",
         "type": "财经",
@@ -35,7 +35,7 @@ const newsData = [
     {
         "id": 4,
         "title": "特朗普：美国海军扣押违反封锁令的伊朗船只",
-        "summary": "AI总结：美国总统特朗普宣布美国海军扣押了一艘违反封锁令的伊朗船只。美伊双方对于是否将在巴基斯坦启动新的和平谈判存在分歧，导致油价上涨。",
+        "summary": "AI总结：美国海军扣押了一艘违反封锁令的伊朗船只，同时美伊双方就是否在巴基斯坦启动新的和平谈判存在分歧，导致油价上涨。",
         "source": "FT中文网",
         "region": "美国",
         "type": "政治",
@@ -46,7 +46,7 @@ const newsData = [
     {
         "id": 5,
         "title": "特朗普：美国将与伊朗举行新一轮谈判",
-        "summary": "AI总结：美国总统特朗普宣布美国将与伊朗举行新一轮谈判，同时威胁称如果伊朗拒绝和平协议，将重启轰炸行动，并扬言炸毁伊朗民用基础设施，引发战争罪担忧。",
+        "summary": "AI总结：美国总统特朗普宣布美国将与伊朗举行新一轮谈判，同时威胁称如果伊朗拒绝和平协议，美国将重启轰炸行动。特朗普还扬言要炸毁伊朗民用基础设施，引发战争罪担忧。",
         "source": "FT中文网",
         "region": "美国",
         "type": "政治",
@@ -57,7 +57,7 @@ const newsData = [
     {
         "id": 6,
         "title": "美商务部长称加拿大“太糟糕”",
-        "summary": "AI总结：美国商务部长卢特尼克批评加拿大在贸易谈判中的拖延策略，认为这是他听到的最糟糕的策略。加拿大的抵制导致美国每月损失超过10亿美元的贸易额。",
+        "summary": "AI总结：美国商务部长卢特尼克对加拿大拖延与美国贸易谈判表示强烈不满，认为这是他听到的最糟糕的策略。加拿大此举导致美国每月损失超过10亿美元的贸易额。",
         "source": "FT中文网",
         "region": "美国",
         "type": "财经",
@@ -68,7 +68,7 @@ const newsData = [
     {
         "id": 7,
         "title": "英国投资者悄然投资字节跳动",
-        "summary": "AI总结：科技行业投资者布莱克福德秘密投资字节跳动，持有价值超过5亿美元的股份，认为该公司相对于其硅谷竞争对手被低估，这可能会影响字节跳动的市场估值和投资者对其未来增长的预期。",
+        "summary": "AI总结：科技行业投资者布莱克福德秘密投资字节跳动，持有价值超过5亿美元的股份，看好其相较于硅谷竞争对手的低估值。",
         "source": "FT中文网",
         "region": "中国",
         "type": "财经",
@@ -79,7 +79,7 @@ const newsData = [
     {
         "id": 8,
         "title": "百事：伊朗战争可能推高价格",
-        "summary": "AI总结：百事公司表示，由于伊朗战争的可能性，其产品价格可能会上升。然而，公司强调，通过大宗商品对冲操作，在未来6至12个月内将对成本波动提供一定程度的保护。",
+        "summary": "AI总结：百事公司表示，由于可能发生的伊朗战争，其产品价格可能上涨。然而，公司指出，其大宗商品对冲策略将在未来6至12个月内缓解成本波动的影响。",
         "source": "FT中文网",
         "region": "美国",
         "type": "财经",
@@ -90,7 +90,7 @@ const newsData = [
     {
         "id": 9,
         "title": "备战中期选举 美国AI行业掷重金支持候选人",
-        "summary": "AI总结：美国加密货币和AI行业在过去一年向国会候选人捐赠约2.5亿美元，以支持对本行业有利的中期选举。这一行为反映了行业对政治影响力的重视，以及对政策制定的影响。",
+        "summary": "AI总结：美国加密货币和AI行业在过去一年内捐赠约2.5亿美元，支持对本行业有利的中期选举国会候选人，表明该行业对政治选举的影响力日益增强。",
         "source": "FT中文网",
         "region": "美国",
         "type": "政治",
@@ -101,7 +101,7 @@ const newsData = [
     {
         "id": 10,
         "title": "俄罗斯对乌克兰发起今年最大规模空袭",
-        "summary": "AI总结：俄罗斯在复活节短暂停火后对乌克兰发动了今年最大规模的空袭，这发生在美国主导的和平谈判停滞之后。",
+        "summary": "AI总结：俄罗斯在复活节短暂停火后对乌克兰发起今年最大规模空袭，此次轰炸发生在美国主导的和平谈判停滞之际。",
         "source": "FT中文网",
         "region": "欧洲",
         "type": "政治",
@@ -112,7 +112,7 @@ const newsData = [
     {
         "id": 11,
         "title": "Trump says US will not lift Hormuz blockade until deal made with Iran",
-        "summary": "AI总结：美国总统特朗普表示，除非与伊朗达成协议，否则美国不会解除霍尔木兹海峡的封锁。此言论发布之际，正值伊朗是否将参加本周在巴基斯坦举行的和平谈判的不确定性。",
+        "summary": "AI总结：美国总统特朗普表示，美国不会解除霍尔木兹海峡的封锁，除非与伊朗达成协议。此言论在伊朗是否将参加本周在巴基斯坦举行的和平谈判的背景下发表。",
         "source": "BBC国际",
         "region": "美国",
         "type": "政治",
@@ -123,7 +123,7 @@ const newsData = [
     {
         "id": 12,
         "title": "New era as Apple names new boss to replace Tim Cook after 15 years",
-        "summary": "AI总结：苹果公司宣布，蒂姆·库克将升任执行董事长，由特伦斯·特恩斯接任公司首席执行官一职，标志着公司进入新时代。这一变动将于9月生效。",
+        "summary": "AI总结：苹果公司宣布，Ternus将于九月接替Tim Cook成为公司新任首席执行官，而Cook将晋升为执行董事长。这一人事变动标志着苹果公司进入新时代。",
         "source": "BBC国际",
         "region": "美国",
         "type": "科技",
@@ -133,19 +133,19 @@ const newsData = [
     },
     {
         "id": 13,
-        "title": "Japan on high alert for 'huge' second quake after lifting tsunami warning",
-        "summary": "AI总结：日本气象厅警告，在解除海啸警报后，未来一周内可能发生另一次更大的地震。",
+        "title": "Japan loosens arms export rules in break from post-WW2 pacifism",
+        "summary": "AI总结：日本放宽了武器出口规则，结束了战后长期的和平主义政策，这将为日本向十几个国家出售武器铺平道路。",
         "source": "BBC国际",
         "region": "其他",
-        "type": "宏观",
-        "url": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
+        "type": "政治",
+        "url": "https://www.bbc.com/news/articles/clyx4vlqy4vo?at_medium=RSS&at_campaign=rss",
         "isImportant": false,
         "keyword": ""
     },
     {
         "id": 14,
         "title": "Canadian killed in shooting at Mexico's ancient Teotihuacán pyramids",
-        "summary": "AI总结：墨西哥官员表示，在即将举办世界杯的前几周，一名加拿大人在墨西哥著名的特奥蒂瓦坎金字塔发生枪击事件中死亡，多人受伤。",
+        "summary": "AI总结：在墨西哥著名旅游胜地特奥蒂瓦坎金字塔发生枪击事件，造成一名加拿大人死亡，多人受伤。这一事件发生在墨西哥即将举办FIFA世界杯的前几周。",
         "source": "BBC国际",
         "region": "其他",
         "type": "宏观",
@@ -155,22 +155,22 @@ const newsData = [
     },
     {
         "id": 15,
-        "title": "Japan loosens arms export rules in break from post-WW2 pacifism",
-        "summary": "AI总结：日本放宽了武器出口规则，这是自二战后和平主义政策以来的首次重大转变，为日本向十多个国家出售武器铺平了道路。",
+        "title": "Japan on high alert for 'huge' second quake after lifting tsunami warning",
+        "summary": "AI总结：日本气象厅警告，在解除海啸警报后，可能在未来一周内发生更大规模的第二次地震。",
         "source": "BBC国际",
         "region": "其他",
-        "type": "政治",
-        "url": "https://www.bbc.com/news/articles/clyx4vlqy4vo?at_medium=RSS&at_campaign=rss",
+        "type": "宏观",
+        "url": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
         "isImportant": false,
         "keyword": ""
     },
     {
         "id": 16,
         "title": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
-        "summary": "AI总结：美国歌手D4vd（本名David Anthony Burke）因涉嫌谋杀一名失踪少女而被起诉，他对此表示不认罪。检方表示，如果罪名成立，他将面临终身监禁。此案件引起了公众的关注。",
+        "summary": "AI总结：美国歌手D4vd（真名David Anthony Burke）因涉嫌谋杀失踪少女而被起诉，他已对指控表示不认罪。检方表示，如果D4vd被判有罪，他可能因案件性质面临终身监禁。此案件引起了公众对青少年安全和名人犯罪问题的关注。",
         "source": "BBC国际",
         "region": "美国",
-        "type": "政治",
+        "type": "宏观",
         "url": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
         "isImportant": false,
         "keyword": ""
@@ -178,7 +178,7 @@ const newsData = [
     {
         "id": 17,
         "title": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
-        "summary": "AI总结：一名以色列士兵在黎巴嫩破坏耶稣雕像引发公愤。以色列军方对此表示“严重关切”，美国大使要求迅速采取后果。该事件在宗教和文化层面上引起争议。",
+        "summary": "AI总结：一名以色列士兵在黎巴嫩破坏耶稣雕像引发公众愤怒。以色列军方对此表示严重关切，美国大使要求迅速采取后果。该事件对宗教敏感性和国际关系产生影响。",
         "source": "BBC国际",
         "region": "其他",
         "type": "政治",
@@ -189,7 +189,7 @@ const newsData = [
     {
         "id": 18,
         "title": "Oil prices rise after Trump says Iranian ship seized",
-        "summary": "AI总结：特朗普宣布扣押伊朗船只后，能源市场油价上涨。自2月28日美以攻击伊朗以来，能源市场波动剧烈。",
+        "summary": "AI总结：特朗普表示已扣留伊朗船只后，石油价格上升。自2月28日美以袭击伊朗以来，能源市场波动剧烈。",
         "source": "BBC国际",
         "region": "美国",
         "type": "财经",
@@ -200,7 +200,7 @@ const newsData = [
     {
         "id": 19,
         "title": "Blue Origin rocket grounded after satellite 'mishap'",
-        "summary": "AI总结：亚马逊创始人杰夫·贝索斯创立的Blue Origin公司在一次卫星发射失败后暂停了火箭发射，目前正在进行调查。",
+        "summary": "AI总结：亚马逊亿万富翁杰夫·贝索斯创立的Blue Origin公司对其卫星发射失败的事件进行调查。",
         "source": "BBC国际",
         "region": "美国",
         "type": "科技",
@@ -211,7 +211,7 @@ const newsData = [
     {
         "id": 20,
         "title": "Woman and child jumped off roof to escape deadly Louisiana shooting",
-        "summary": "AI总结：一名父亲在路易斯安那州因家庭纠纷枪杀了包括自己七个孩子在内的八名儿童。事件发生后，一名妇女和一名儿童从屋顶跳下逃生。",
+        "summary": "AI总结：据当局称，一名父亲在一场看似家庭纠纷的事件中枪杀了八名儿童，包括他自己的七个孩子。一名妇女和一名儿童从屋顶跳下以逃离枪击。",
         "source": "BBC国际",
         "region": "美国",
         "type": "政治",
@@ -221,8 +221,239 @@ const newsData = [
     },
     {
         "id": 21,
+        "title": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
+        "summary": "AI总结：美国总统特朗普推动和平协议，副总统JD Vance将率领美国代表团访问巴基斯坦。伊朗官员私下表示，如果Vance在场，他们将派团队参加。这一系列动作显示出美伊关系可能迎来新的谈判契机。",
+        "source": "纽约时报",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 22,
+        "title": "A Leaner Saudi Arabia Turns From Grandiose Plans to Pragmatism",
+        "summary": "AI总结：沙特阿拉伯在宣布‘2030愿景’计划十年后，因面临财务压力，开始重新评估其经济转型路径。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "财经",
+        "url": "https://www.nytimes.com/2026/04/20/world/middleeast/saudi-arabia-vision-pragmatism.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 23,
+        "title": "Javier Milei Tamed Argentina’s Inflation. Now He Wants to Reshape Its Values.",
+        "summary": "AI总结：阿根廷右翼总统Javier Milei成功控制了该国的通货膨胀，现正寻求改变国家的价值观。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/americas/argentina-president-milei-inflation-economic-reforms.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 24,
+        "title": "Ukraine, Short on Troops, Is Turning to Robots to Help Its War Efforts",
+        "summary": "AI总结：乌克兰在部队短缺的情况下，开始使用装备有炸弹、枪械或火箭的无人地面车辆进行攻击，以保护士兵免受伤害。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/europe/ukraine-russia-war-robots-drones.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 25,
+        "title": "Starmer Voices Fury Over Being Kept in the Dark on Mandelson Vetting",
+        "summary": "AI总结：英国首相Keir Starmer在议会中指责文官没有告知他Peter Mandelson未能通过高级安全审查。这一事件引发了公众对政府透明度和内部沟通的质疑。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/europe/uk-starmer-mandelson-statement-parliament.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 26,
+        "title": "Pakistan’s Leaders Try to Contain Rising Anger Over Iran War at Home",
+        "summary": "AI总结：巴基斯坦的少数派什叶派因美国-以色列对伊朗高级神职人员的袭击而感到愤怒，这加剧了巴基斯坦作为调解者的角色复杂性。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 27,
+        "title": "Tsunami Warnings Downgraded in Japan After Strong Offshore Earthquake",
+        "summary": "AI总结：日本东北部本州岛东北海岸的岩手县附近海域发生7.7级海底地震，随后海啸警报被降级。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.nytimes.com/2026/04/20/world/asia/tsunami-warning-japan-earthquake.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 28,
+        "title": "A Decisive Win Raises Bulgarians’ Hopes for Change",
+        "summary": "AI总结：前总统鲁门·拉代夫的选举胜利为保加利亚带来了稳定和清除阻碍其增长的腐败现象的机会。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/europe/bulgaria-election-result-rumen-radev.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 29,
+        "title": "Israeli Soldier in Lebanon Sledgehammered a Statue of Jesus",
+        "summary": "AI总结：一名以色列士兵在黎巴嫩用大锤砸碎了耶稣雕像，军方正在调查此事。以色列总理内塔尼亚胡对可能给黎巴嫩及世界各地的信徒造成的伤害表示遗憾。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/middleeast/israeli-soldier-lebanon-sledgehammer-jesus.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 30,
+        "title": "Mexico to Investigate Security Role of 2 U.S. Officials Killed in Crash",
+        "summary": "AI总结：墨西哥总统Claudia Sheinbaum宣布将调查两名在车祸中丧生的美国官员的安全角色，调查重点在于这两位美国人参与打击毒品活动的行为是否违反了墨西哥的国家安全法律和主权。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/04/20/world/americas/mexico-investigate-crash-americans.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 31,
+        "title": "Palestinians Stream Back to Northern Gaza on Foot",
+        "summary": "AI总结：以色列在解决关于人质释放的僵局后，允许流离失所的加沙居民开始穿越分隔该地区的军事区域，返回北加沙。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 32,
+        "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+        "summary": "AI总结：中国领先的房地产开发商万科报告了巨额亏损，引发了对房地产危机持续蔓延和政府是否会介入的疑问。",
+        "source": "华尔街日报",
+        "region": "中国",
+        "type": "财经",
+        "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 33,
+        "title": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+        "summary": "AI总结：新闻讲述了以色列被释放人质在10月7日袭击中身体仍留有弹片的情况。其中一些女性被单独监禁了很长时间，并在地道中度过了八个月。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 34,
+        "title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+        "summary": "AI总结：北约首次对疑似针对关键基础设施的破坏活动做出协调反应，这是在波罗的海又有一条海底电缆被切断后。",
+        "source": "华尔街日报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 35,
+        "title": "Rwanda-Backed Rebels Enter Congo's Safe-Haven City",
+        "summary": "AI总结：卢旺达支持的叛军攻占了刚果的避难城市戈马，当地居民报告了枪声和炮击。联合国官员估计，现在有超过一百万流离失所者在城市内。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 36,
+        "title": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact",
+        "summary": "AI总结：哥伦比亚在八年前的和平协议后，原本的强大反叛武装集团被清除，但如今，由可卡因资助的强大准军事组织对平民发起了攻击，反映了国家在协议签署后八年来的不作为。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/cocaine-funded-gangs-shake-colombia-years-after-peace-pact-a45a28da",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 37,
+        "title": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says",
+        "summary": "AI总结：意大利总理梅洛尼表示支持沙特阿拉伯加入全球战斗机项目，该项目由英国、意大利和日本合作，旨在到2035年在空中部署一款具有超音速能力的隐形战斗机。",
+        "source": "华尔街日报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/italy-supports-saudi-arabia-joining-gcap-fighter-jet-program-pm-meloni-says-bbd9cec1",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 38,
+        "title": "Shippers Wary of Red Sea Routes Despite Houthi Pledge to End Targeting",
+        "summary": "AI总结：全球最大的三家集装箱运营商表示，尽管胡塞武装承诺停止针对红海航线，但他们仍然担心加沙地带的不稳定和更广泛的地区紧张局势可能导致持续的危险。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "财经",
+        "url": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 39,
+        "title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
+        "summary": "AI总结：朝鲜领导人金正恩为了遏制好莱坞和K-pop文化的影响，大力宣扬300,000名青少年和20岁青年的‘冲击队’，这些青年被征召参与洪水重建工作。",
+        "source": "华尔街日报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 40,
+        "title": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff",
+        "summary": "AI总结：美国总统特朗普宣布哥伦比亚将接受遣返的移民，此举结束了关税僵局。这是特朗普在第二任期初期将移民问题作为优先考虑的事项之一，美国移民和海关执法局（ICE）在周日进行了超过900次逮捕。",
+        "source": "华尔街日报",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 41,
+        "title": "PettiChat获百万美元种子投资，造出宠物穿戴AI翻译器",
+        "summary": "AI总结：PettiChat获得100万美元种子轮融资，专注于开发宠物穿戴AI翻译器。该公司旨在通过动物行为世界模型，实现人宠之间的双向沟通，产品包括宠物语音翻译、对话和位置与健康追踪功能。该技术有望应用于畜牧业和野生动物保护等领域。",
+        "source": "36氪",
+        "region": "中国",
+        "type": "科技",
+        "url": "https://36kr.com/p/3769659305427459?f=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 42,
         "title": "地产中介“二当家”去年亏损9663万，租赁业务成了压舱石",
-        "summary": "AI总结：我爱我家2025年营业总收入104.8亿元，同比下滑16.4%，实现住房总交易金额约2520亿元，同比下滑12.4%。公司去年亏损9663.1万元，主要由于资产价值缩水和营收账款坏账。尽管如此，租赁业务成为业绩稳定器，相寓业务收入同比有所下降，但出租率稳定在95%。新房业务收入下降21.8%，成为三大业务中降幅最大的板块。",
+        "summary": "AI总结：我爱我家2025年年度报告显示，公司去年营业总收入104.8亿元，同比下滑16.4%；实现住房总交易金额约2520亿元，同比下滑12.4%。公司去年归属母公司所有者净利润为-9663.1万元，同比大幅减少231.63%。公司亏损主要源于自持投资性房地产公允价值变动、新房业务应收账款减值和固定资产折旧等非经常性因素。尽管如此，租赁业务成为公司业绩的稳定器。",
         "source": "36氪",
         "region": "中国",
         "type": "财经",
@@ -231,9 +462,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 22,
+        "id": 43,
         "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态｜最前线",
-        "summary": "AI总结：奇世智能CheeChips完成天使轮融资，专注于AI+母婴智能硬件生态。公司计划将资金用于技术研发、人才引进和市场拓展。奇世智能推出的家用AI模拟全彩胎儿记录仪旨在改变准妈妈们的孕期体验，并计划在未来五年内构建覆盖全球的智能孕育产业集群。",
+        "summary": "AI总结：奇世智能CheeChips完成天使轮融资，将资金主要用于技术研发、人才引进和市场拓展。公司专注于AI+母婴智能硬件生态，推出家用AI模拟全彩胎儿记录仪，并计划开发59款全新品类智能母婴产品。公司创始人认为，随着新生代父母对科学育儿的需求增加，AI技术将成为育儿场景的刚需。",
         "source": "36氪",
         "region": "中国",
         "type": "科技",
@@ -242,9 +473,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 23,
+        "id": 44,
         "title": "智能锂电园林公司完成数千万元融资，出货量破万台｜硬氪首发",
-        "summary": "AI总结：智能锂电园林公司劳尼克斯近日完成数千万元融资，投资方包括苏州天空工场、宜宾高新前沿科技产业基金、翼朴资本。公司产品涵盖割草机、打草机、修枝机等，出货量已超万台。劳尼克斯通过技术创新和系统协同，在电动化与智能化方面取得突破，加速进入海外市场。",
+        "summary": "AI总结：劳尼克斯科技完成数千万元融资，资金用于核心产品研发迭代和海外市场拓展。公司产品覆盖多种电动园林工具，销售额连续增长，出货量超过万台。新闻显示，公司致力于通过智能化和系统协同提升电动园林工具的性能。",
         "source": "36氪",
         "region": "中国",
         "type": "财经",
@@ -253,9 +484,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 24,
+        "id": 45,
         "title": "专访Eight Sleep CTO：被马斯克们买爆的AI床垫，进中国先砍一刀订阅费",
-        "summary": "AI总结：Eight Sleep，一家AI睡眠系统公司，宣布进入中国市场，推出售价19999元起的Pod 5智能深眠系统。为了适应中国市场，Eight Sleep为中国用户免除了199美元的软件订阅费。公司CEO Massimo Bassi强调，Eight Sleep进入中国市场是为了满足高端健康市场，并计划通过科技和人工智能改善用户的睡眠质量。",
+        "summary": "AI总结：AI睡眠系统独角兽Eight Sleep正式进入中国市场，推出售价19999元起的Pod 5智能深眠系统，并为中国用户免除199美元的软件订阅费。公司CTO Massimo Bassi强调Eight Sleep的核心是科技，而非传统床垫市场，并计划通过高端定位和KOL合作等方式在中国市场推广。",
         "source": "36氪",
         "region": "中国",
         "type": "科技",
@@ -264,20 +495,20 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 25,
+        "id": 46,
         "title": "8点1氪丨库克将不再担任苹果CEO；爱奇艺回应AI艺人库争议：入驻仅代表有接洽意愿；日本修正震级为7.7级",
-        "summary": "AI总结：苹果公司宣布任命约翰·特纳斯为下一任CEO，库克转任执行董事长；爱奇艺回应AI艺人库争议；日本近海发生7.7级地震；美国关税退款系统上线；字节跳动海外营收占比创新高，净利润大降70%；华为余承东称手机可能涨价。",
+        "summary": "AI总结：苹果公司宣布特纳斯将接替库克担任CEO，爱奇艺回应AI艺人库争议，日本近海发生7.7级地震，美关税退款系统上线，字节跳动海外营收占比创新高，华为余承东称手机可能涨价。",
         "source": "36氪",
-        "region": "美国",
+        "region": "中国",
         "type": "科技",
         "url": "https://36kr.com/p/3775833331286530?f=rss",
         "isImportant": false,
         "keyword": ""
     },
     {
-        "id": 26,
+        "id": 47,
         "title": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
-        "summary": "AI总结：华为发布首款鸿蒙AI眼镜，天齐锂业一季度净利润同比增长1530.31%—1818.01%，多家企业发布一季度业绩预告，丰田和宁德时代将在印尼合作生产混合动力汽车电池，OPPO Find X9 Ultra系列首次出海，多家企业完成新一轮融资。",
+        "summary": "AI总结：华为发布首款鸿蒙AI眼镜，天齐锂业一季度净利润预增超1500%；盛屯矿业一季度净利润同比增长250.4%；物产环能一季度净利润同比增长11.73%；创维数字一季度净利润同比增长1455.79%；中电环保一季度净利润同比下降8.15%；大族数控一季度净利润同比增长176.53%；丰田和宁德时代将在印尼合作生产混合动力汽车电池；OPPO Find X9 Ultra系列首次出海；东犁退休俱乐部完成亿元级B轮融资；曦望完成超10亿元融资；IDC预测2030年全球人形机器人出货量将突破51万台。",
         "source": "36氪",
         "region": "中国",
         "type": "财经",
@@ -286,9 +517,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 27,
+        "id": 48,
         "title": "空悬企业时驾科技获头部车企MPV车型独家定点 | 早期项目",
-        "summary": "AI总结：国产空气悬架供应商时驾科技已获得某头部车企MPV车型的独家定点，标志着其在空气悬架舒适性领域的技术领先。时驾科技的产品具有集成化和效率提升的特点，成本更低，兼容性更强。此外，公司还在研发全主动悬架系统，旨在成为首个推出气路架构的企业，推动全主动悬架国产化。",
+        "summary": "AI总结：国产空气悬架供应商时驾科技获得某头部车企MPV车型独家定点，预计今年四季度交付。时驾科技专注于空气悬架系统的研发和生产，其产品包括电子控制模块和八合一集成闭式空气供给模块。公司正努力成为全主动悬架领域的领先企业，并计划成为首个推出气路架构的公司。",
         "source": "36氪",
         "region": "中国",
         "type": "科技",
@@ -297,20 +528,20 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 28,
+        "id": 49,
         "title": "营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏",
-        "summary": "AI总结：《安魂曲》作为《生化危机》系列的新作，尽管存在剧情和游戏设计上的瑕疵，如素材复用和双线设定带来的体验割裂，但凭借怀旧元素和创新的体验设计，依然获得了玩家的好评和高销量。文章分析了游戏受欢迎的原因，包括怀旧元素、角色成长和游戏模式创新等。",
+        "summary": "AI总结：《生化危机9：安魂曲》作为《生化危机》系列的新作，尽管在剧情和游戏设计上存在瑕疵，但因其对系列怀旧元素的回归和对不同玩家体验的融合，仍获得了高评分和良好的销量。游戏融合了里昂线和格蕾丝线，分别提供了战斗爽快和恐怖惊悚的体验，吸引了不同类型的玩家。",
         "source": "36氪",
-        "region": "其他",
+        "region": "中国",
         "type": "科技",
         "url": "https://36kr.com/p/3774966004892416?f=rss",
         "isImportant": false,
         "keyword": ""
     },
     {
-        "id": 29,
+        "id": 50,
         "title": "申根签证申请同比增长20%，VFS Global观察中国市场回暖｜最前线",
-        "summary": "AI总结：申根签证申请在中国市场同比增长20%，显示中国出境游需求回暖。VFS Global观察到中国申请人从效率导向转向效率与体验并重的需求。签证服务行业正在经历消费升级和服务分层，VFS Global通过提供高端服务和个性化体验来应对这一变化。",
+        "summary": "AI总结：申根签证申请在中国市场同比增长20%，显示中国出境游需求回暖。VFS Global观察到中国申请人从效率导向转向对效率和体验的双重需求，推动签证服务行业向高端和个性化需求转型。",
         "source": "36氪",
         "region": "中国",
         "type": "财经",
@@ -319,130 +550,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 30,
-        "title": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
-        "summary": "AI总结：灵光推出的手搓应用平台，让用户通过简单操作就能制作互动应用，类似朋友圈的社交形式。这种平台的出现降低了创作门槛，使得普通人也能成为创作者，并解决生活中的实际问题。",
-        "source": "36氪",
-        "region": "中国",
-        "type": "科技",
-        "url": "https://36kr.com/p/3774865386144519?f=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 31,
-        "title": "爱奇艺说入驻，艺人说没签，谁在说谎？",
-        "summary": "AI总结：爱奇艺宣布某艺人将入驻，但该艺人否认签约。此事成为网络热搜，引发了公众对于娱乐圈经纪公司和平台之间关系的关注。",
-        "source": "钛媒体",
-        "region": "中国",
-        "type": "财经",
-        "url": "https://www.tmtpost.com/7961023.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 32,
-        "title": "汪滔不想被理解，俞浩也不想",
-        "summary": "AI总结：汪滔和俞浩均表示不希望被外界理解，反映出在当前多变的时代背景下，稳定的叙事变得难以捉摸。",
-        "source": "钛媒体",
-        "region": "中国",
-        "type": "财经",
-        "url": "https://www.tmtpost.com/7960969.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 33,
-        "title": "硅谷右翼的权力网如何形成？聊聊彼得·蒂尔的思想启蒙拼图",
-        "summary": "AI总结：本文探讨了硅谷右翼权力网的成因，通过分析彼得·蒂尔的思想启蒙过程，指出其受到三位哲学家的深刻影响。",
-        "source": "钛媒体",
-        "region": "美国",
-        "type": "政治",
-        "url": "https://www.tmtpost.com/7960965.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 34,
-        "title": "Claude 进了 Word，但“修订模式”不是新发明",
-        "summary": "AI总结：新闻核心事件为微软的办公软件Word更新，加入了名为Claude的人工智能助手，但强调其并非革命性创新，而是通过融入工作流程来提高办公效率。这一更新对AI办公领域的影响在于展示了AI如何更加自然地融入现有工具中，而非完全颠覆现有工作模式。",
-        "source": "钛媒体",
-        "region": "美国",
-        "type": "科技",
-        "url": "https://www.tmtpost.com/7960339.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 35,
-        "title": "关于苹果新任CEO的一切",
-        "summary": "AI总结：苹果公司宣布新任CEO，这一变化被视为公司基因主导权的转移。",
-        "source": "钛媒体",
-        "region": "美国",
-        "type": "财经",
-        "url": "https://www.tmtpost.com/7961034.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 36,
-        "title": "库克没有辜负乔布斯",
-        "summary": "AI总结：新闻指出，乔布斯开创了苹果公司的创新，而库克则巩固了这些创新，使得公司得以稳定发展。这一事件强调了公司领导层在打破和守护规则方面的作用。",
-        "source": "钛媒体",
-        "region": "美国",
-        "type": "财经",
-        "url": "https://www.tmtpost.com/7961071.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 37,
-        "title": "梁文锋不在乎赢，DeepSeek不能输",
-        "summary": "AI总结：梁文锋表示，DeepSeek公司专注于信仰而非投机，强调在竞争中不追求单纯的胜利，而是注重长期的发展和价值观的坚持。",
-        "source": "钛媒体",
-        "region": "中国",
-        "type": "科技",
-        "url": "https://www.tmtpost.com/7960987.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 38,
-        "title": "字节的利润去哪了？",
-        "summary": "AI总结：字节跳动公司开始牺牲利润，这可能预示着该公司将投入更大规模的竞争。这一策略可能会影响公司的财务表现，但也可能为市场带来新的动态。",
-        "source": "钛媒体",
-        "region": "中国",
-        "type": "财经",
-        "url": "https://www.tmtpost.com/7960950.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 39,
-        "title": "爱奇艺太急了",
-        "summary": "AI总结：爱奇艺急于讲述人工智能的新故事，但需要注意节奏，避免急躁。",
-        "source": "钛媒体",
-        "region": "中国",
-        "type": "科技",
-        "url": "https://www.tmtpost.com/7961125.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 40,
-        "title": "黄仁勋公开叫板谷歌、亚马逊，芯片业务全靠Anthropic养活？",
-        "summary": "AI总结：英伟达CEO黄仁勋公开挑战谷歌和亚马逊，表示芯片业务主要依靠Anthropic公司。新闻摘要用‘电子进去，token出来’形容英伟达的业务模式。",
-        "source": "钛媒体",
-        "region": "美国",
-        "type": "科技",
-        "url": "https://www.tmtpost.com/7960426.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 41,
+        "id": 51,
         "title": "欧洲央行宣布下调欧元区关键利率",
-        "summary": "AI总结：欧洲中央银行于5日宣布下调欧元区三大关键利率，共计25个基点，这是年内第八次降息，旨在刺激经济增长。此举可能会降低欧元区借贷成本，但同时也增加了通胀风险。",
+        "summary": "AI总结：欧洲央行宣布将欧元区三大关键利率下调25个基点，这是该行一年内的第八次降息，旨在刺激经济增长。",
         "source": "人民网",
         "region": "欧洲",
         "type": "财经",
@@ -451,20 +561,20 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 42,
+        "id": 52,
         "title": "美联储“褐皮书”：美国经济不确定性居高位　关税推高物价",
-        "summary": "AI总结：美国联邦储备委员会发布的“褐皮书”显示，美国经济和政策的不确定性高企，导致企业和家庭决策谨慎，制造业活动下降，消费者支出情况不一，物价略有上涨，关税上调带来成本和物价上涨压力。",
+        "summary": "AI总结：美联储发布的“褐皮书”显示，美国经济不确定性高，关税导致物价上涨，经济活动小幅下降，制造业活动轻度下降，就业状况变化不大，物价略有上涨。",
         "source": "人民网",
         "region": "美国",
         "type": "财经",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494887.html",
-        "isImportant": true,
-        "keyword": "关税"
+        "isImportant": false,
+        "keyword": ""
     },
     {
-        "id": 43,
+        "id": 53,
         "title": "商务部：中方对合规稀土出口许可申请将予以批准",
-        "summary": "AI总结：商务部表示，中国政府将对符合规定的稀土出口许可申请予以批准，以促进便利合规贸易。这一做法与国际通行做法相符，同时强调了稀土等物项的军民两用属性。",
+        "summary": "AI总结：商务部表示，中国将对符合规定的稀土出口许可申请予以批准，以促进便利合规贸易。这一做法符合国际通行做法，即对具有军民两用属性的物项实施出口管制。",
         "source": "人民网",
         "region": "中国",
         "type": "政策",
@@ -473,20 +583,20 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 44,
+        "id": 54,
         "title": "外交部：中国愿继续与各方一道推动共建清洁、美丽、可持续的世界",
-        "summary": "AI总结：外交部发言人表示，中国作为绿色发展的坚定行动派和全球绿色转型的重要贡献者，愿继续推动共建清洁、美丽、可持续的世界。中国在全球能耗强度降低、空气质量改善、可再生能源开发等领域取得显著成就，并帮助其他发展中国家实施能源转型项目。",
+        "summary": "AI总结：外交部发言人林剑在例行记者会上表示，中国是全球绿色发展的坚定行动派和重要贡献者。中国在生态治理、可再生能源开发等领域取得显著成就，并帮助其他发展中国家实施能源转型项目。中国将继续与各方合作，推动共建清洁、美丽、可持续的世界。",
         "source": "人民网",
         "region": "中国",
-        "type": "政策",
+        "type": "政治",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494859.html",
         "isImportant": false,
         "keyword": ""
     },
     {
-        "id": 45,
+        "id": 55,
         "title": "来自神舟二十号的“太空问候”！中国航天员为世博会中国馆送祝福",
-        "summary": "AI总结：神舟二十号航天员从中国空间站为2025大阪世博会中国馆送上太空祝福，表达对世博会成功的祝愿和对地球绿色发展的关注，强调人类探索未知和共同守护地球家园的重要性。",
+        "summary": "AI总结：神舟二十号航天员从中国空间站为2025大阪世博会中国馆送上太空祝福，表达了对世博会成功的祝愿和对绿色发展的支持。这一行动体现了中国在航天科技和文化传承方面的成就，以及对全球航天合作的重视。",
         "source": "人民网",
         "region": "中国",
         "type": "科技",
@@ -495,9 +605,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 46,
+        "id": 56,
         "title": "外交部回应美方宣布将对哈佛大学国际学生实行签证限制",
-        "summary": "AI总结：美国宣布将对哈佛大学国际学生实行签证限制，外交部发言人表示反对将教育合作政治化，强调中美教育合作互利，并将维护海外中国学生和学者的权益。",
+        "summary": "AI总结：美国宣布将对哈佛大学国际学生实行签证限制，中国外交部发言人表示反对将教育合作政治化，强调维护海外中国学生和学者的合法权益。",
         "source": "人民网",
         "region": "中国",
         "type": "政治",
@@ -506,20 +616,20 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 47,
+        "id": 57,
         "title": "中日气候变化问题专家交流会在东京举行",
-        "summary": "AI总结：6月3日，日本东京举行中日气候变化问题专家交流会，由日本笹川和平财团笹川日中友好基金主办。会议聚焦低碳经济转型、碳排放权交易市场等议题，中日专家讨论深化两国在绿色低碳领域的合作。这是笹川日中友好基金第二次邀请中国环境问题专家访日。",
+        "summary": "AI总结：由日本笹川和平财团笹川日中友好基金主办的中日气候变化问题专家交流会在东京举行。会议聚焦低碳经济转型、碳排放权交易市场等议题，中日专家就合作空间和发展潜力进行了深入讨论。",
         "source": "人民网",
         "region": "中国",
-        "type": "政策",
+        "type": "科技",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494622.html",
         "isImportant": false,
         "keyword": ""
     },
     {
-        "id": 48,
+        "id": 58,
         "title": "法国巴黎西岱大学孔院勇夺第24届“汉语桥”世界大学生中文比赛法国冠军",
-        "summary": "AI总结：巴黎西岱大学孔子学院在2025年第24届‘汉语桥’世界大学生中文比赛法国赛区中荣获冠军。马爱乐同学凭借标准发音和幽默风格获得一等奖，尼古拉同学获得三等奖。巴黎西岱大学孔子学院连续三年获得该赛事冠军，展示了其卓越的教学水平和品牌影响力。",
+        "summary": "AI总结：巴黎西岱大学孔子学院在2025年第24届“汉语桥”世界大学生中文比赛中荣获法国赛区冠军。该学院精心培养了两名选手，最终一名选手获得一等奖，另一名获得三等奖，展示了孔院卓越的教学水平和品牌影响力。",
         "source": "人民网",
         "region": "欧洲",
         "type": "文化",
@@ -528,9 +638,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 49,
+        "id": 59,
         "title": "远景法国超级工厂投产 中法携手引领绿色能源转型",
-        "summary": "AI总结：远景动力在法国杜埃的电池超级工厂正式投产，标志着中法在绿色能源和先进制造领域的合作。工厂首期产能10GWh，预计为20万辆电动汽车提供动力电池。法国总统马克龙出席投产仪式，强调该项目对法国工业振兴和能源转型的重要性。",
+        "summary": "AI总结：远景动力在法国杜埃的电池超级工厂正式投产，预计将供应雷诺等车企，标志着中法在绿色能源和先进制造领域的合作成果。工厂未来将具备24GWh的产能，并延伸至储能电池、智能充电设施与电池回收等解决方案，推动法国绿色能源产业生态构建。",
         "source": "人民网",
         "region": "欧洲",
         "type": "财经",
@@ -539,9 +649,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 50,
+        "id": 60,
         "title": "2025第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展开幕",
-        "summary": "AI总结：2025年6月4日，第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展在雅加达开幕。展览聚焦印尼工业化4.0升级需求，展品覆盖印尼工业上下游全产业链。展会由中国20个省及印尼、日本等国1,000多家企业参展，展前预注册买家超70,000名。此举促进中印尼两国工业领域深度交流和合作。",
+        "summary": "AI总结：2025第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展在雅加达开幕，聚焦印尼工业化4.0升级需求，展示中国制造业实力，促进中印尼工业合作。展览面积达40,000平方米，吸引来自中国及印尼等国的1000多家企业参展，展前预注册买家超70,000名。",
         "source": "人民网",
         "region": "中国",
         "type": "财经",
