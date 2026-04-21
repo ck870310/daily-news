@@ -79,7 +79,9 @@
         .tag { background: #fff9e6; color: #b89824; border: 1px solid #f0e6c2; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; }
         
         .title { font-size: 21px; font-weight: 700; margin: 0 0 12px 0; line-height: 1.45; color: #2c3e50; }
-        .summary { font-size: 15px; color: #596673; line-height: 1.7; margin: 0; text-align: justify; }
+        
+        /* 针对 300-500 字长文排版的优化 */
+        .summary { font-size: 15.5px; color: #4a5568; line-height: 1.8; margin: 0; text-align: justify; letter-spacing: 0.3px; }
     </style>
 </head>
 <body>
@@ -98,7 +100,6 @@
             <div id="kwContainer"></div>
         </div>
 
-        <!-- 替换了全新的8大强力新闻源按钮 -->
         <div class="tabs" id="tabContainer">
             <button class="tab active" data-source="全部">全部</button>
             <button class="tab" data-source="FT中文网">FT中文网</button>
@@ -106,8 +107,8 @@
             <button class="tab" data-source="纽约时报">纽约时报</button>
             <button class="tab" data-source="华尔街日报">华尔街日报</button>
             <button class="tab" data-source="36氪">36氪</button>
-            <button class="tab" data-source="新浪财经">新浪财经</button>
-            <button class="tab" data-source="第一财经">第一财经</button>
+            <button class="tab" data-source="雅虎财经">雅虎财经</button>
+            <button class="tab" data-source="CNBC国际">CNBC国际</button>
             <button class="tab" data-source="人民网">人民网</button>
         </div>
         
