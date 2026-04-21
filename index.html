@@ -10,7 +10,7 @@
             --text-main: #1d1d1f;
             --text-second: #86868b;
             --card-bg: #ffffff;
-            --accent: #2c3e50;
+            --accent: #54728f;
             --highlight: #e30000;
         }
         body {
@@ -42,6 +42,7 @@
         }
         #kwContainer { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
 
+        /* 修改了滚动条和标签排列的样式 */
         .tabs { 
             display: flex; gap: 10px; margin-bottom: 30px; 
             overflow-x: auto; padding-bottom: 10px; 
@@ -67,7 +68,6 @@
         .card.important { border: 1px solid rgba(227, 0, 0, 0.2); background: #fffdfd; }
         .keyword-badge { background: #ffe5e5; color: var(--highlight); padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; margin-right: 8px; }
         
-        /* 红色热点徽章 */
         .hot-badge {
             background: #ff4d4f; color: white; padding: 2px 6px; border-radius: 6px;
             font-size: 11px; font-weight: 800; margin-right: 8px; display: inline-flex; align-items: center;
@@ -76,7 +76,6 @@
         .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
         .source { font-weight: 700; font-size: 14px; color: #54728f; display: flex; align-items: center; }
         
-        /* 淡黄色专属标签 */
         .tags { display: flex; gap: 8px; }
         .tag { background: #fff9e6; color: #b89824; border: 1px solid #f0e6c2; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; }
         
@@ -100,14 +99,15 @@
             <div id="kwContainer"></div>
         </div>
 
+        <!-- 替换了全新的8大强力新闻源按钮 -->
         <div class="tabs" id="tabContainer">
             <button class="tab active" data-source="全部">全部</button>
             <button class="tab" data-source="FT中文网">FT中文网</button>
             <button class="tab" data-source="BBC国际">BBC国际</button>
-            <button class="tab" data-source="华尔街日报">华尔街日报</button>
-            <button class="tab" data-source="联合早报">联合早报</button>
+            <button class="tab" data-source="纽约时报">纽约时报</button>
+            <button class="tab" data-source="日经中文网">日经中文网</button>
             <button class="tab" data-source="36氪">36氪</button>
-            <button class="tab" data-source="新浪财经">新浪财经</button>
+            <button class="tab" data-source="虎嗅网">虎嗅网</button>
             <button class="tab" data-source="钛媒体">钛媒体</button>
             <button class="tab" data-source="人民网">人民网</button>
         </div>
@@ -137,17 +137,17 @@
             
             let displayData = JSON.parse(JSON.stringify(newsData));
             
-            // 预处理：计算每个平台的Top 3，打上"热"标签
+            // 计算Top 3热标
             let sourceCounts = {};
             displayData.forEach(news => {
                 if (!sourceCounts[news.source]) sourceCounts[news.source] = 0;
                 sourceCounts[news.source]++;
                 if (sourceCounts[news.source] <= 3) {
-                    news.isHot = true; // 平台前3条标记为热点
+                    news.isHot = true; 
                 }
             });
 
-            // 预处理：页面级关键词嗅探高亮处理
+            // 页面级关键词嗅探
             if (dynamicKws.length > 0) {
                 displayData.forEach(news => {
                     const txt = (news.title + " " + news.summary).toLowerCase();
@@ -159,7 +159,7 @@
             // 按平台分类过滤
             let filteredData = filterSource === '全部' ? displayData : displayData.filter(n => n.source === filterSource);
             
-            // 将命中的关键词新闻强制置顶
+            // 强制置顶
             filteredData.sort((a, b) => (b.isImportant === true ? 1 : 0) - (a.isImportant === true ? 1 : 0));
 
             if (filteredData.length === 0) {
@@ -170,7 +170,7 @@
             // 生成卡片HTML
             filteredData.forEach(news => {
                 const card = document.createElement('a');
-                card.href = news.url; card.target = "_blank"; // 点击直达原文
+                card.href = news.url; card.target = "_blank"; 
                 card.className = news.isImportant ? "card important" : "card";
                 
                 const hotHtml = news.isHot ? `<span class="hot-badge">热</span>` : '';
@@ -200,7 +200,7 @@
             });
         });
 
-        // 页面端关键词追踪交互
+        // 页面追踪交互
         const addKw = () => {
             const v = kwInput.value.trim();
             if(v && !dynamicKws.includes(v)) { 
