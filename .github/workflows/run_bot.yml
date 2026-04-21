@@ -1,9 +1,11 @@
-name: 每日自动抓取新闻
+name: 每日二次自动抓取
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 相当于每天早上6点 (北京时间) 自动运行
-  workflow_dispatch: # 允许你随时手动点击按钮运行
+    # 23:00 UTC 是北京时间 07:00
+    # 06:00 UTC 是北京时间 14:00
+    - cron: '0 23,6 * * *' 
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -33,5 +35,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add news_data.js
-          git commit -m "🤖 AI 自动更新今日新闻" || echo "今天的新闻没有变化"
+          git commit -m "🤖 AI 自动更新（北京时间 7点/14点）" || echo "无变化"
           git push
