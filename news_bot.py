@@ -41,7 +41,7 @@ news_id = 1
 print("\n🚀 终极加强版 AI 自动读报机器人开始运行...")
 print("-----------------------------------")
 
-# 设置请求头伪装成真实浏览器，防拦截
+# 【核心破解】设置请求头，完美伪装成真实的 Chrome 浏览器
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
@@ -49,7 +49,7 @@ headers = {
 for feed_info in rss_urls:
     print(f"\n📡 正在前往 {feed_info['source']} 抓取新闻...")
     try:
-        # 使用 httpx 突破防火墙拦截
+        # 使用 httpx 带上面具强行突破防火墙拦截
         response = httpx.get(feed_info['url'], headers=headers, timeout=20.0, follow_redirects=True)
         feed = feedparser.parse(response.content)
     except Exception as e:
