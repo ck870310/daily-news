@@ -3,121 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的全自动政经简报</title>
+    <title>全自动政经简报 PRO</title>
     <style>
         :root {
-            --bg-color: #f7f9fc;
-            --text-main: #2c3e50;
-            --text-second: #7f8c8d;
+            --bg-color: #f7f8fa;
+            --text-main: #1d1d1f;
+            --text-second: #86868b;
             --card-bg: #ffffff;
-            --tag-bg: #fffcf0; 
-            --tag-text: #b89824;
-            --tag-border: #f0e6c2;
-            --highlight-bg: #fff0f2;
-            --highlight-text: #d9534f;
-            --color-all: #8391a1;   
-            --color-cn: #d98880;    
-            --color-us: #7fb3d5;    
-            --color-eu: #82e0aa;    
-            --color-other: #f0b27a; 
+            --accent: #2c3e50;
+            --highlight: #e30000;
         }
-        
         body {
-            font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
-            margin: 0;
-            padding: 35px 20px;
-            display: flex;
-            justify-content: center;
-            -webkit-font-smoothing: antialiased;
+            margin: 0; padding: 30px 20px;
+            display: flex; justify-content: center;
         }
-        
         .container { max-width: 800px; width: 100%; }
-        
         header { margin-bottom: 25px; text-align: center; }
-        
-        h1 { 
-            font-size: 34px; margin: 0 0 10px 0; font-weight: 800; letter-spacing: 1px;
-            background: linear-gradient(135deg, #2c3e50, #54728f);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-        }
-        
+        h1 { font-size: 34px; margin: 0 0 5px 0; font-weight: 700; color: #2c3e50; }
         .date { color: var(--text-second); font-size: 14px; font-weight: 500; }
-        
-        /* 关键词追踪模块样式 */
-        .tracker-module {
-            background: #ffffff;
-            border-radius: 20px;
-            padding: 20px 24px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
-            border: 1px solid #e1e8ed;
+
+        .tracker-box {
+            background: #fff; padding: 18px 20px; border-radius: 16px; margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02); border: 1px solid #eef0f2;
         }
-        .tracker-title {
-            font-size: 14px; font-weight: 600; color: var(--text-main); margin-bottom: 12px;
-            display: flex; align-items: center; gap: 6px;
-        }
-        .input-group { display: flex; gap: 10px; margin-bottom: 15px; }
+        .tracker-title { font-size:13px; font-weight:600; margin-bottom:10px; color:#54728f; display:flex; align-items:center;}
+        .tracker-input-group { display:flex; gap:10px; }
         .tracker-input {
-            flex: 1; padding: 10px 16px; border-radius: 12px; border: 1px solid #dcdfe6;
+            flex: 1; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px;
             font-size: 14px; outline: none; transition: border 0.2s;
         }
-        .tracker-input:focus { border-color: var(--color-us); }
+        .tracker-input:focus { border-color: #54728f; }
         .tracker-btn {
-            background: var(--color-us); color: white; border: none; padding: 0 20px;
-            border-radius: 12px; font-weight: 600; cursor: pointer; transition: background 0.2s;
+            background: #54728f; color: white; border: none; padding: 0 20px;
+            border-radius: 8px; cursor: pointer; font-weight: 600; white-space: nowrap;
         }
-        .tracker-btn:hover { background: #6ca0c2; }
-        .active-keywords { display: flex; gap: 8px; flex-wrap: wrap; }
-        .user-tag {
-            background: #f0f4f8; color: var(--color-us); padding: 4px 12px; border-radius: 12px;
-            font-size: 12px; font-weight: 600; display: flex; align-items: center; gap: 6px;
-        }
-        .user-tag span { cursor: pointer; color: #a0b2c0; font-weight: bold; }
-        .user-tag span:hover { color: var(--color-us); }
-        .tracker-hint { font-size: 12px; color: #aeb6bf; margin-top: 10px; text-align: right; }
+        #kwContainer { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
 
-        .tabs { display: flex; gap: 12px; margin-bottom: 30px; overflow-x: auto; padding: 5px 5px 15px 5px; justify-content: center; }
+        .tabs { 
+            display: flex; gap: 10px; margin-bottom: 30px; 
+            overflow-x: auto; padding-bottom: 10px; 
+            -ms-overflow-style: none; scrollbar-width: none;
+        }
         .tabs::-webkit-scrollbar { display: none; }
         .tab { 
-            padding: 8px 22px; border-radius: 24px; background: #ffffff; color: var(--text-second);
-            font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.3s; border: 1px solid #e1e8ed;
+            padding: 8px 18px; border-radius: 20px; background: #e8e8ed; color: var(--text-second);
+            font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; border: none;
             white-space: nowrap;
         }
-        .tab:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.06); }
-        .tab.active[data-region="全部"] { background: var(--color-all); color: white; border-color: var(--color-all); }
-        .tab.active[data-region="中国"] { background: var(--color-cn); color: white; border-color: var(--color-cn); }
-        .tab.active[data-region="美国"] { background: var(--color-us); color: white; border-color: var(--color-us); }
-        .tab.active[data-region="欧洲"] { background: var(--color-eu); color: white; border-color: var(--color-eu); }
-        .tab.active[data-region="其他"] { background: var(--color-other); color: white; border-color: var(--color-other); }
+        .tab:hover { background: #d2d2d7; }
+        .tab.active { background: #54728f; color: #fff; box-shadow: 0 2px 8px rgba(84,114,143,0.3); }
 
-        .news-list { display: flex; flex-direction: column; gap: 24px; }
+        .news-list { display: flex; flex-direction: column; gap: 20px; }
         .card {
-            background: var(--card-bg); border-radius: 20px; padding: 28px;
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.04); text-decoration: none; color: inherit;
-            transition: all 0.3s ease; display: block; position: relative; overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.5);
+            background: var(--card-bg); border-radius: 18px; padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-decoration: none; color: inherit;
+            transition: transform 0.2s ease, box-shadow 0.2s ease; display: block; border: 1px solid transparent;
         }
-        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -12px rgba(0,0,0,0.08); }
-        .card.important::before {
-            content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px;
-            background-color: var(--highlight-text); border-radius: 20px 0 0 20px;
+        .card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(0,0,0,0.06); }
+        
+        .card.important { border: 1px solid rgba(227, 0, 0, 0.2); background: #fffdfd; }
+        .keyword-badge { background: #ffe5e5; color: var(--highlight); padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; margin-right: 8px; }
+        
+        /* 红色热点徽章 */
+        .hot-badge {
+            background: #ff4d4f; color: white; padding: 2px 6px; border-radius: 6px;
+            font-size: 11px; font-weight: 800; margin-right: 8px; display: inline-flex; align-items: center;
         }
-        .keyword-badge { 
-            background: var(--highlight-bg); color: var(--highlight-text); padding: 6px 12px; 
-            border-radius: 14px; font-size: 12px; font-weight: 600; margin-right: 8px; display: inline-flex; align-items: center;
-        }
-        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-        .source { font-weight: 700; font-size: 13px; color: #aeb6bf; text-transform: uppercase; letter-spacing: 0.5px; }
-        .tags { display: flex; gap: 8px; flex-wrap: wrap; }
-        .tag { 
-            background: var(--tag-bg); color: var(--tag-text); border: 1px solid var(--tag-border);
-            padding: 4px 14px; border-radius: 14px; font-size: 12px; font-weight: 600; 
-        }
-        .title { font-size: 20px; font-weight: 700; margin: 0 0 12px 0; line-height: 1.5; color: var(--text-main); }
-        .summary { font-size: 15px; color: var(--text-second); line-height: 1.7; margin: 0; text-align: justify; }
-        .status-box { background:#ffffff; border: 1px solid #f2d7d5; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px -10px rgba(217,83,79,0.1); }
+        
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .source { font-weight: 700; font-size: 14px; color: #54728f; display: flex; align-items: center; }
+        
+        /* 淡黄色专属标签 */
+        .tags { display: flex; gap: 8px; }
+        .tag { background: #fff9e6; color: #b89824; border: 1px solid #f0e6c2; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        
+        .title { font-size: 21px; font-weight: 700; margin: 0 0 12px 0; line-height: 1.45; color: #2c3e50; }
+        .summary { font-size: 15px; color: #596673; line-height: 1.7; margin: 0; text-align: justify; }
     </style>
 </head>
 <body>
@@ -127,23 +91,25 @@
             <div class="date" id="currentDate"></div>
         </header>
 
-        <!-- 新增：页面端追踪模块 -->
-        <div class="tracker-module">
-            <div class="tracker-title">🎯 实时页面追踪</div>
-            <div class="input-group">
-                <input type="text" id="keywordInput" class="tracker-input" placeholder="输入当前想高亮的词，例如：科技，降息..." autocomplete="off">
-                <button id="addKeywordBtn" class="tracker-btn">添加</button>
+        <div class="tracker-box">
+            <div class="tracker-title">🎯 页面雷达追踪 (输入关键词并回车，自动置顶命中新闻)</div>
+            <div class="tracker-input-group">
+                <input type="text" id="kwInput" class="tracker-input" placeholder="例如：降息, 人工智能, 苹果...">
+                <button id="addBtn" class="tracker-btn">添加追踪</button>
             </div>
-            <div class="active-keywords" id="activeKeywords"></div>
-            <div class="tracker-hint">* 网页端实时筛选。若需后台机器人明日起追踪，请在 GitHub 编辑 keywords.txt 文件</div>
+            <div id="kwContainer"></div>
         </div>
 
         <div class="tabs" id="tabContainer">
-            <button class="tab active" data-region="全部">全部</button>
-            <button class="tab" data-region="中国">中国</button>
-            <button class="tab" data-region="美国">美国</button>
-            <button class="tab" data-region="欧洲">欧洲</button>
-            <button class="tab" data-region="其他">其他</button>
+            <button class="tab active" data-source="全部">全部</button>
+            <button class="tab" data-source="FT中文网">FT中文网</button>
+            <button class="tab" data-source="BBC国际">BBC国际</button>
+            <button class="tab" data-source="华尔街日报">华尔街日报</button>
+            <button class="tab" data-source="联合早报">联合早报</button>
+            <button class="tab" data-source="36氪">36氪</button>
+            <button class="tab" data-source="新浪财经">新浪财经</button>
+            <button class="tab" data-source="钛媒体">钛媒体</button>
+            <button class="tab" data-source="人民网">人民网</button>
         </div>
         
         <div class="news-list" id="newsContainer"></div>
@@ -153,117 +119,66 @@
     <script src="news_data.js" charset="utf-8"></script>
 
     <script>
-        const dateOpts = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('zh-CN', dateOpts);
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
 
         const container = document.getElementById('newsContainer');
         const tabs = document.querySelectorAll('.tab');
-        
-        // 动态关键词系统
-        const keywordInput = document.getElementById('keywordInput');
-        const addKeywordBtn = document.getElementById('addKeywordBtn');
-        const activeKeywordsContainer = document.getElementById('activeKeywords');
-        let dynamicKeywords = []; // 保存当前页面的临时关键词
-
-        window.onload = function() {
-            if (typeof newsData === 'undefined') {
-                container.innerHTML = `
-                    <div class="status-box">
-                        <h2 style="color:#d9534f; margin-top:0;">☕ 等待数据加载</h2>
-                        <p style="color:#7f8c8d; line-height:1.6; text-align:left; margin-bottom:0;">
-                            网页未能读取到新闻数据。请确保：<br><br>
-                            1. <b>app.html</b> 和机器人生成的 <b>news_data.js</b> 在同一个文件夹内。<br>
-                            2. 尝试按下 <b>Ctrl + F5</b> 强制刷新当前网页清理缓存。
-                        </p>
-                    </div>`;
-                return;
-            }
-            if (newsData.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color:#7f8c8d; margin-top:50px;">当前暂无新闻数据，请运行机器人抓取。</p>';
-                return;
-            }
-            renderNews();
-        };
-
-        // 添加关键词逻辑
-        addKeywordBtn.addEventListener('click', () => {
-            const word = keywordInput.value.trim();
-            if (word && !dynamicKeywords.includes(word)) {
-                dynamicKeywords.push(word);
-                updateKeywordUI();
-                renderNews();
-            }
-            keywordInput.value = '';
-        });
-
-        // 绑定回车键
-        keywordInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') addKeywordBtn.click();
-        });
-
-        // 更新追踪词UI
-        function updateKeywordUI() {
-            activeKeywordsContainer.innerHTML = '';
-            dynamicKeywords.forEach((word, index) => {
-                const tag = document.createElement('div');
-                tag.className = 'user-tag';
-                tag.innerHTML = `${word} <span onclick="removeKeyword(${index})">×</span>`;
-                activeKeywordsContainer.appendChild(tag);
-            });
-        }
-
-        // 移除关键词逻辑 (需挂载到 window 供 onclick 调用)
-        window.removeKeyword = function(index) {
-            dynamicKeywords.splice(index, 1);
-            updateKeywordUI();
-            renderNews();
-        };
+        const kwInput = document.getElementById('kwInput');
+        let dynamicKws = [];
 
         function renderNews() {
-            if (typeof newsData === 'undefined') return;
-            
-            // 获取当前选中的分类
-            const activeTab = document.querySelector('.tab.active');
-            const filterRegion = activeTab ? activeTab.getAttribute('data-region') : '全部';
-            
+            if (typeof newsData === 'undefined') {
+                container.innerHTML = '<p style="text-align:center; color:#86868b; margin-top:50px;">正在等待云端抓取新闻数据...</p>';
+                return;
+            }
+
+            const filterSource = document.querySelector('.tab.active').getAttribute('data-source');
             container.innerHTML = ''; 
             
-            // 复制一份数据以便动态修改属性
             let displayData = JSON.parse(JSON.stringify(newsData));
             
-            // 如果页面上有输入的追踪词，实时匹配新闻内容
-            if (dynamicKeywords.length > 0) {
+            // 预处理：计算每个平台的Top 3，打上"热"标签
+            let sourceCounts = {};
+            displayData.forEach(news => {
+                if (!sourceCounts[news.source]) sourceCounts[news.source] = 0;
+                sourceCounts[news.source]++;
+                if (sourceCounts[news.source] <= 3) {
+                    news.isHot = true; // 平台前3条标记为热点
+                }
+            });
+
+            // 预处理：页面级关键词嗅探高亮处理
+            if (dynamicKws.length > 0) {
                 displayData.forEach(news => {
-                    const contentToSearch = (news.title + " " + news.summary).toLowerCase();
-                    const matchedWord = dynamicKeywords.find(word => contentToSearch.includes(word.toLowerCase()));
-                    if (matchedWord) {
-                        news.isImportant = true; // 页面端强制置顶
-                        news.keyword = matchedWord; // 显示命中的词
-                    }
+                    const txt = (news.title + " " + news.summary).toLowerCase();
+                    const hit = dynamicKws.find(k => txt.includes(k.toLowerCase()));
+                    if (hit) { news.isImportant = true; news.keyword = hit; }
                 });
             }
 
-            // 按分类筛选
-            let filteredData = filterRegion === '全部' ? displayData : displayData.filter(n => n.region === filterRegion);
+            // 按平台分类过滤
+            let filteredData = filterSource === '全部' ? displayData : displayData.filter(n => n.source === filterSource);
             
-            // 将含有 important 标记（后台传来的，或刚刚前台匹配的）置顶
+            // 将命中的关键词新闻强制置顶
             filteredData.sort((a, b) => (b.isImportant === true ? 1 : 0) - (a.isImportant === true ? 1 : 0));
 
             if (filteredData.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color:#7f8c8d; margin-top:50px;">该分类下暂无新闻。</p>';
+                container.innerHTML = '<p style="text-align:center; color:#86868b; margin-top:50px;">该平台暂无新闻。</p>';
                 return;
             }
 
+            // 生成卡片HTML
             filteredData.forEach(news => {
                 const card = document.createElement('a');
-                card.href = news.url; card.target = "_blank";
+                card.href = news.url; card.target = "_blank"; // 点击直达原文
                 card.className = news.isImportant ? "card important" : "card";
                 
+                const hotHtml = news.isHot ? `<span class="hot-badge">热</span>` : '';
                 const keywordHtml = news.isImportant ? `<span class="keyword-badge">🎯 关注: ${news.keyword}</span>` : '';
 
                 card.innerHTML = `
                     <div class="card-header">
-                        <span class="source">${news.source}</span>
+                        <span class="source">${hotHtml} ${news.source}</span>
                         <div class="tags">
                             ${keywordHtml}
                             <span class="tag">${news.region}</span>
@@ -284,6 +199,25 @@
                 renderNews(); 
             });
         });
+
+        // 页面端关键词追踪交互
+        const addKw = () => {
+            const v = kwInput.value.trim();
+            if(v && !dynamicKws.includes(v)) { 
+                dynamicKws.push(v); 
+                const s = document.createElement('span'); 
+                s.style.cssText = "background:#54728f; color:white; padding:4px 12px; border-radius:12px; font-size:12px; font-weight:600; cursor:pointer;";
+                s.innerHTML = `${v} &times;`;
+                s.onclick = () => { dynamicKws = dynamicKws.filter(k=>k!==v); s.remove(); renderNews(); };
+                document.getElementById('kwContainer').appendChild(s);
+                renderNews();
+            }
+            kwInput.value = '';
+        };
+        document.getElementById('addBtn').onclick = addKw;
+        kwInput.onkeypress = e => e.key==='Enter' && addKw();
+        
+        window.onload = renderNews;
     </script>
 </body>
 </html>
