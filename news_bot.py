@@ -4,7 +4,7 @@ import json
 import time
 import os
 
-# 🌟 1. 从 GitHub 环境变量读取智谱 API 密钥
+# 🌟 1. 从 GitHub 环境变量安全读取智谱 API 密钥
 ZHIPU_API_KEY = os.environ.get("ZHIPU_API_KEY") 
 client = ZhipuAI(api_key=ZHIPU_API_KEY)
 
@@ -18,12 +18,16 @@ if os.path.exists(keyword_file):
 else:
     print("📖 未发现 keywords.txt，当前无特别追踪关键词。")
 
-# 🌟 3. 新闻源列表 (四大平台)
+# 🌟 3. 新闻源列表 (扩充为 8 大国内外权威平台)
 rss_urls = [
     {"source": "FT中文网", "url": "http://www.ftchinese.com/rss/news"},
     {"source": "BBC国际", "url": "http://feeds.bbci.co.uk/news/world/rss.xml"},
     {"source": "华尔街日报", "url": "https://cn.wsj.com/zh-hans/rss"},
-    {"source": "联合早报", "url": "https://www.zaobao.com/realtime/world/rss"}
+    {"source": "联合早报", "url": "https://www.zaobao.com/realtime/world/rss"},
+    {"source": "36氪", "url": "https://36kr.com/feed"},
+    {"source": "新浪财经", "url": "https://feed.sina.com.cn/api/roll/finance/rss"},
+    {"source": "钛媒体", "url": "https://www.tmtpost.com/rss.xml"},
+    {"source": "人民网", "url": "http://www.people.com.cn/rss/world.xml"}
 ]
 
 final_news_data = []
@@ -40,10 +44,10 @@ for feed_info in rss_urls:
         print(f"  [失败] 无法连接到 {feed_info['source']}")
         continue
     
-    # 强制目标：必须成功抓取 10 条
+    # 强制目标：每个平台必须成功抓取 10 条
     success_count = 0
     
-    # 扩大搜索范围到前 25 条，确保即使有失败的也能凑够 10 条
+    # 扩大候选池到前 25 条，确保遇到坏新闻被跳过后，依然能凑够 10 条
     for entry in feed.entries[:25]:
         if success_count >= 10:
             print(f"  🎯 {feed_info['source']} 已成功抓满 10 条，切换下一平台。")
@@ -85,6 +89,7 @@ for feed_info in rss_urls:
                     messages=[{"role": "user", "content": prompt_text}],
                 )
                 
+                # 清洗 JSON 格式防止报错
                 ai_result_text = response.choices[0].message.content.strip()
                 if ai_result_text.startswith("```json"):
                     ai_result_text = ai_result_text[7:]
