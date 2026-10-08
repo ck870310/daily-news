@@ -1,8 +1,30 @@
 const newsData = [
     {
         "id": 1,
+        "title": "欧盟贸易专员访华谈判混合动力汽车出口问题",
+        "summary": "💡 深度简报：欧盟贸易专员近日访问中国，旨在就混合动力汽车出口问题进行谈判。此次谈判对于两大经济体之间的贸易关系至关重要，因为欧洲官员明确表示，如果不能解决混合动力汽车的问题，那么此次北京会谈将面临失败的风险。这不仅可能导致两大经济体之间的贸易关系迅速恶化，还可能对全球经济格局产生深远影响。混合动力汽车作为新兴环保交通工具，其出口问题涉及多方利益，包括欧洲企业的市场拓展和中国的产业升级。因此，此次谈判不仅关乎双方的经济利益，还关乎全球汽车产业的发展趋势。",
+        "source": "FT中文网",
+        "region": "欧洲",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001111048",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 2,
+        "title": "中国拒绝欧盟关于“自愿限制”混合动力汽车出口的请求",
+        "summary": "💡 深度简报：中国拒绝了欧盟关于对混合动力汽车出口实施自愿限制的请求。这一请求源于欧盟委员会考虑实施临时限制措施，以控制中国混合动力汽车出口的激增，该激增可能引发严重的贸易冲突。中国此举表明其对于国际贸易规则和限制措施的立场，并可能对中欧关系及全球汽车产业产生深远影响。",
+        "source": "FT中文网",
+        "region": "欧洲",
+        "type": "财经",
+        "url": "https://www.ftchinese.com/story/001111047",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 3,
         "title": "大众就汽车融资丑闻拨备7.25亿英镑",
-        "summary": "💡 深度简报：大众汽车因汽车经销商在贷款过程中未披露佣金而引发的丑闻，已经为此拨备了7.25亿英镑的赔偿金。该丑闻源于经销商在协助购车者办理贷款时，未透露将从贷款中获得佣金，导致整个汽车行业遭受超过15亿英镑的损失。这起事件暴露了汽车行业的内部管理问题和经销商与贷款机构之间的潜在利益冲突，可能对消费者权益和行业信誉造成长期影响。",
+        "summary": "💡 深度简报：大众汽车公司近日就汽车融资丑闻拨备了7.25亿英镑。这起丑闻源于汽车经销商在协助购车者办理贷款时，未向购车者充分披露自身将获得的佣金。这一行为导致了整个汽车行业遭受超过15亿英镑的冲击。该事件揭示了汽车行业在融资过程中的不规范操作，对消费者权益保护、行业监管以及投资者信心都产生了深远影响。",
         "source": "FT中文网",
         "region": "欧洲",
         "type": "财经",
@@ -11,9 +33,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "印度3年来首次加息",
-        "summary": "💡 深度简报：印度央行货币政策委员会在经历了3年的稳定利率政策后，一致投票决定加息0.25个百分点，将利率上调至5.5%。这一决策是基于当前通胀加速、全球能源价格上涨以及印度国内经济增长强劲的背景。通胀加速主要是由于食品和燃料价格的上涨，全球能源价格上涨则对印度的进口成本产生了压力。尽管加息可能会对印度的消费者和企业的借贷成本产生一定影响，但央行认为这是为了维护经济的长期稳定和可持续增长。此次加息将对印度的经济政策、金融市场以及国际经济关系产生深远影响。",
+        "summary": "💡 深度简报：印度央行货币政策委员会在经过一致投票后，决定将利率上调0.25个百分点，达到5.5%。这一决定是基于当前通胀加速、全球能源价格上涨以及印度国内经济增长强劲的现状。这是印度央行自2018年以来的首次加息，标志着印度央行对经济过热和通胀压力的应对。加息的背景是，印度经济在过去一年中保持了高速增长，但同时也伴随着通货膨胀的上升。为了抑制通胀，央行选择加息，这可能会对印度的房地产市场、消费市场以及整体经济增长产生一定影响。",
         "source": "FT中文网",
         "region": "其他",
         "type": "财经",
@@ -22,9 +44,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "德国阻止中资收购汉堡港物流企业",
-        "summary": "💡 深度简报：德国政府近日宣布否决了中国远洋海运集团（COSCO）收购康拉德·齐佩尔货运代理（Conrad Zempel Logistik）80%股份的提议。这一决定是在上届德国政府批准中远海运入股汉堡港一集装箱码头之后做出的。此举反映了德国对国家安全和战略利益的考虑，尤其是在当前全球政治经济格局下，对于关键基础设施的控制成为各国关注的焦点。此次收购的否决可能对中远海运的全球战略布局产生一定影响，同时也可能加剧中德之间的贸易和投资关系紧张。",
+        "summary": "💡 深度简报：德国政府近日宣布否决了中国远洋海运集团（Cosco）对康拉德·齐佩尔货运代理（Conrad Shipyard）80%股份的收购请求。这一决定与上届德国政府在2015年批准中远海运入股汉堡港一集装箱码头形成了鲜明对比。背景上，汉堡港作为欧洲最大的港口之一，其物流业务对德国乃至整个欧洲的经济至关重要。此次否决可能反映了德国政府对中资企业在关键基础设施领域投资的谨慎态度，尤其是在当前国际政治经济形势复杂多变的情况下。这一事件对中德关系以及中欧经济合作可能产生长远影响，同时也可能加剧全球贸易和投资中的地缘政治紧张。",
         "source": "FT中文网",
         "region": "欧洲",
         "type": "财经",
@@ -33,9 +55,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "中国出台房贷贴息政策",
-        "summary": "💡 深度简报：中国政府近日宣布了一项新的房贷贴息政策，旨在为首次购房者提供经济支持，并下调了央行放贷利率。这一政策的核心背景是当前中国经济增长放缓，政府希望通过刺激房地产市场来提振整体经济。具体措施包括对首次购房者的房贷利率进行补贴，以降低他们的购房成本，同时降低央行放贷利率以降低金融机构的融资成本，从而间接降低房贷利率。此举预计将增加房地产市场的流动性，促进购房需求的增长，进而可能对经济增长产生积极影响。长远来看，这一政策可能会对房地产市场、金融体系以及整体经济结构产生深远影响。",
+        "summary": "💡 深度简报：中国政府近日宣布了一项旨在刺激经济增长的新政策，该政策包括为首次购房者提供房贷贴息支持，并下调央行放贷利率。这一政策的核心目的是通过降低购房成本和减轻金融机构的贷款压力，来促进房地产市场的稳定和消费的增长。背景细节方面，中国近年来经济增长放缓，房地产市场面临下行压力，政府希望通过这一系列措施来稳定市场预期，提振经济活力。深远影响方面，这一政策可能会对房地产市场产生短期内的刺激作用，但长期效果还需观察。此外，政策实施过程中可能出现的道德风险和金融风险也需要政府密切关注。总体而言，这一政策是中国政府应对当前经济形势的积极举措，但具体效果仍有待观察。",
         "source": "FT中文网",
         "region": "中国",
         "type": "宏观",
@@ -44,9 +66,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "特朗普召集AI行业领袖开会讨论安全担忧",
-        "summary": "💡 深度简报：美国白宫近期召集了包括Anthropic的阿莫代伊在内的AI行业领袖开会，讨论了人工智能领域的前沿模型开发速度放缓以及安全问题。会议中，行业领袖力主达成一项全行业协议，旨在通过限制开发速度来增强AI系统的安全性。然而，白宫对于加强监管的要求似乎并未给予足够重视。这一事件反映出美国政府对于AI技术发展的态度，以及业界与政府之间在监管和安全问题上的分歧。",
+        "summary": "💡 深度简报：美国总统特朗普近期召集了包括Anthropic的阿莫代伊在内的AI行业领袖进行会议，讨论了关于人工智能安全性的担忧。这些行业领袖强烈主张达成一项全行业协议，旨在放缓前沿人工智能模型的开发速度，以减少潜在的安全风险。然而，白宫至今未对加强监管的呼声做出回应。这一事件凸显了人工智能技术快速发展与安全监管之间的矛盾，以及政府与行业领袖在处理这一问题时存在的分歧。",
         "source": "FT中文网",
         "region": "美国",
         "type": "科技",
@@ -55,9 +77,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "谁在回购市场大举借款？",
-        "summary": "💡 深度简报：这篇新闻的核心事件是全球回购市场的总规模已达到22万亿美元，探讨了该市场的主要参与者、最大的贷款方和借款方以及推动市场过去十年大幅增长的因素。背景细节包括回购市场的定义、其在全球金融市场中的地位以及其增长的动力。深远影响可能包括对全球金融稳定、利率水平以及投资者行为的影响。该新闻没有明确指出地区和种类，但考虑到内容，可能属于财经类。",
+        "summary": "💡 深度简报：这篇新闻的核心事件是关于全球回购市场的总规模已达到22万亿美元，探讨了回购市场的使用者、最大的贷款方和借款方，以及过去十年市场大幅增长的原因。背景细节包括全球回购市场的参与者主要是大型金融机构和投资公司，这些机构通过回购协议进行短期资金调配。最大的贷款方通常是大型银行，而借款方则包括各种类型的投资者和公司。市场增长的主要动力包括低利率环境和金融市场的流动性需求。深远影响包括对全球金融市场的稳定性和流动性的潜在影响，以及对货币政策的影响。",
         "source": "FT中文网",
         "region": "全球",
         "type": "财经",
@@ -66,9 +88,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 7,
+        "id": 9,
         "title": "英伟达启动1500亿美元股票回购计划",
-        "summary": "💡 深度简报：英伟达，这家位于硅谷的芯片制造商，近日宣布了一项史无前例的股票回购计划，规模高达1500亿美元。这一计划是美国企业史上规模最大的回购计划，显示出英伟达在AI供应链中的顶端地位及其强劲的财务实力。该计划预计将在未来五年内实施，旨在提高股东回报，并可能进一步提升公司股价。英伟达的盈利能力得益于其在人工智能领域的领先地位，以及全球对高性能计算的需求不断增长。这一举措可能会对整个科技行业产生深远影响，包括推动其他科技公司考虑类似的股票回购计划，同时也可能加剧资本市场的波动。",
+        "summary": "💡 深度简报：英伟达，这家位于硅谷的芯片制造商，宣布启动一项史无前例的1500亿美元股票回购计划，这是美国企业史上规模最大的回购计划。这一举措背后反映了英伟达在人工智能（AI）供应链中的领导地位以及其持续增长的盈利能力。英伟达通过在数据中心、游戏、自动驾驶汽车等多个领域的创新产品，巩固了其市场地位。此次股票回购计划预计将进一步增加股东价值，并可能对股市产生广泛影响，尤其是对科技股市场。此举也可能对竞争对手产生压力，促使他们采取措施以保持竞争力。从长远来看，英伟达的这一动作可能会推动整个半导体行业的股票价格上涨，并可能引发更多企业的股票回购活动。",
         "source": "FT中文网",
         "region": "美国",
         "type": "财经",
@@ -77,42 +99,108 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "SpaceX星舰火箭首次成功进入轨道",
-        "summary": "💡 深度简报：SpaceX的星舰火箭首次成功进入轨道，标志着该公司在太空探索领域取得了重大突破。星舰火箭是人类迄今为止建造的最大火箭系统，其成功发射对于SpaceX创始人埃隆·马斯克实现从NASA争取更多合同、以及将人类送上月球和火星的雄心壮志至关重要。这一事件不仅展示了SpaceX在火箭技术上的领先地位，也预示着未来太空探索的新篇章。背景细节包括星舰火箭的设计、制造过程，以及马斯克对太空探索的长期承诺。深远影响包括推动太空技术发展、降低太空探索成本、促进国际合作，以及可能改变人类对太空的认知和利用方式。",
+        "summary": "💡 深度简报：SpaceX公司成功发射了其星舰火箭，这是人类迄今为止建造的最大火箭系统。此次成功进入轨道标志着SpaceX在实现马斯克的雄心壮志——从NASA争取更多合同，并将人类送上月球和火星——方面迈出了重要一步。星舰火箭的成功不仅展示了SpaceX的技术实力，也引发了全球对太空探索和商业航天领域的关注。这次发射的成功对于美国在太空领域的领导地位具有重要意义，同时也可能对全球航天产业产生深远影响。",
         "source": "FT中文网",
         "region": "美国",
         "type": "科技",
         "url": "https://www.ftchinese.com/story/001111011",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 9,
-        "title": "美驻华大使：特朗普曾问中国要不要买美国武器",
-        "summary": "💡 深度简报：美国驻华大使庞德伟在回应有关特朗普是否为了安抚中国而推迟140亿美元的对台军售案的提问时，否认了这一说法。他强调，美国的对台政策没有改变。此外，庞德伟透露，特朗普曾询问中国是否愿意购买美国武器。这一事件反映了美中两国在军事和安全领域的互动，以及美国对台政策的敏感性。此举可能对中美关系产生影响，尤其是在当前的国际政治环境下，美国与中国的关系对全球政治经济格局具有深远影响。",
-        "source": "FT中文网",
-        "region": "美国",
-        "type": "政治",
-        "url": "https://www.ftchinese.com/story/001110999",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 10,
-        "title": "巴西总统在大选前夕宣布网络赌博禁令",
-        "summary": "💡 深度简报：巴西总统卢拉在大选前夕签署了网络赌博禁令，此举措被广泛解读为意在提升自己在10月4日总统大选中的胜算，对抗右翼挑战者弗拉维奥·博索纳罗。禁令的实施将影响网络赌博行业，可能对巴西的赌博市场和消费者行为产生深远影响。此外，禁令也引发了关于政府监管、个人自由以及政治策略的广泛讨论。",
-        "source": "FT中文网",
-        "region": "其他",
-        "type": "政治",
-        "url": "https://www.ftchinese.com/story/001110998",
-        "isImportant": false,
-        "keyword": ""
+        "isImportant": true,
+        "keyword": "马斯克"
     },
     {
         "id": 11,
-        "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
-        "summary": "💡 深度简报：西班牙一名87岁的养老金领取者，Maricarmen Abascal，因被强制从居住超过70年的公寓中移出而引发了全国范围内的抗议活动。她在9月份被担架从公寓中强行带走，这一事件引起了公众对于住房权利和贫困问题的广泛关注。Abascal女士的去世不仅是对她个人的哀悼，也是对整个社会住房危机的警示。这一事件揭示了西班牙在住房保障和老年人权益保护方面的不足，可能促使政府和社会各界对相关政策和措施进行重新审视。",
+        "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+        "summary": "💡 深度简报：乌克兰官员表示，俄罗斯对前线城市中的一辆拥挤的公交车发动袭击，造成至少30人死亡。这一事件是乌克兰近期遭受的一系列致命袭击中的最新一起，乌克兰指责俄罗斯有意针对平民，以尽可能多地杀害平民。这一事件不仅加剧了乌克兰与俄罗斯之间的紧张关系，也引发了国际社会的广泛关注和谴责。背景细节包括乌克兰持续的冲突局势，俄罗斯对乌克兰的军事行动，以及国际社会对冲突的关注和介入。深远影响可能包括对乌克兰国内局势的影响，对俄罗斯国际形象的影响，以及对国际关系和地区安全的影响。",
+        "source": "BBC国际",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 12,
+        "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+        "summary": "💡 深度简报：根据BBC的报道，美国和黎巴嫩正在保护被通缉的叙利亚将军Bassam al-Hassan。这位将军目前被安置在一个安全的地方，作为交换，他提供了关于被绑架的美国记者Austin Tice的信息。这一事件涉及国际政治、情报交换和地区安全等多个层面。首先，它揭示了美国在叙利亚冲突中的复杂角色，以及其与地区盟友黎巴嫩之间的紧密合作。其次，这起事件可能对中东地区的安全形势产生深远影响，特别是考虑到叙利亚将军的背景和他可能掌握的信息。此外，美国记者Austin Tice的绑架事件一直备受关注，此次事件可能为解开这一谜团提供线索。然而，这也引发了对情报交换可能带来的道德和法律问题的担忧。",
+        "source": "BBC国际",
+        "region": "美国、黎巴嫩、其他（中东地区）",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 13,
+        "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+        "summary": "💡 深度简报：英国外交大臣表示，英国将减少其在东耶路撒冷的领事馆工作人员，这是对以色列在约旦河西岸建立非法定居点的英国制裁的回应。以色列在九月宣布，将对此采取行动。这一举措反映了英国对以色列政策的强硬立场，同时也可能加剧英以关系紧张。这一事件可能对中东地区的政治局势产生深远影响，包括对巴以冲突的潜在影响，以及国际社会对以色列政策的反应。",
+        "source": "BBC国际",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 14,
+        "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
+        "summary": "💡 深度简报：美国一名被判处死刑的囚犯Christa Pike在经历两次致命注射后幸存，目前能够在医院病房内行走。这起事件引发了关于死刑执行程序和效果的广泛讨论。Christa Pike因谋杀Colleen Slemmer而被判处死刑。在两次注射后，她仍然存活，这表明了死刑执行过程中可能存在的风险和不确定性。这一事件不仅引起了法律界和公众的关注，还可能对美国的死刑执行政策产生影响。",
+        "source": "BBC国际",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 15,
+        "title": "Italy overhauls electoral system after fiercely contested debate",
+        "summary": "💡 深度简报：意大利在经历了一场激烈的辩论后，对其选举制度进行了重大改革。总理Giorgia Meloni表示，这一举措将带来更稳定的政府，但反对党则认为她的目的是为了保持权力。这场改革涉及对选举规则的调整，可能对意大利的政治格局产生深远影响。改革的具体内容包括调整议会选举的比例代表制，旨在增加政府的稳定性和效率。然而，反对党担心这将削弱他们的政治影响力，导致政治极化。此次改革在意大利国内引起了广泛讨论，外界普遍关注其可能带来的政治和社会后果。",
+        "source": "BBC国际",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 16,
+        "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+        "summary": "💡 深度简报：近日，据海事情报机构报道，一艘名为Acers的油化和化学品运输船在卡塔尔附近海域遭到多枚弹片的袭击。事件导致船上人员伤亡。这起事件发生在波斯湾地区，该地区一直因政治和地缘政治紧张而备受关注。此次袭击可能是由区域内的冲突或恐怖主义行为引起的。这起事件不仅对当地的海上运输安全构成威胁，也可能对全球石油和化学品市场产生重大影响，进而影响全球经济。此外，事件可能加剧地区紧张局势，对国际关系产生深远影响。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 17,
+        "title": "Outspoken Indian actor Nana Patekar suddenly dies at 75",
+        "summary": "💡 深度简报：印度著名演员纳纳·帕特卡尔（Nana Patekar）于75岁突然去世，这一消息震惊了印度乃至整个印度电影界。帕特卡尔以其强烈的表演风格和独特的个性在印度电影中占据了举足轻重的地位。他出演了多部经典电影，如《大智若愚》、《阿凡达》等，深受观众喜爱。帕特卡尔的去世不仅是对他个人职业生涯的终结，也是对印度电影工业的一个巨大损失。他的去世引发了印度电影界和公众的广泛哀悼，许多同行和影迷纷纷表达了对他的敬意和怀念。帕特卡尔的去世可能会对印度电影市场产生一定的影响，尤其是对于那些喜欢他独特风格的观众。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 18,
+        "title": "Residents airlifted to safety after flooding in central Chile",
+        "summary": "💡 深度简报：近日，智利中部的马波乔河因连续多日降雨量异常大而决堤，导致周边地区发生严重洪水。当地政府紧急采取救援措施，通过直升机将居民转移到安全地带。此次洪水事件凸显了气候变化对南美洲国家基础设施和居民生活的影响，同时也对当地经济和社会秩序造成了冲击。",
+        "source": "BBC国际",
+        "region": "其他",
+        "type": "宏观",
+        "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 19,
+        "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
+        "summary": "💡 深度简报：西班牙一名87岁的养老金领取者，Maricarmen Abascal，因被强制从居住超过70年的公寓中移出而引发了全国范围内的抗议活动。Abascal女士在9月份被担架从她的公寓中强行带走，这一事件迅速引起了公众的愤怒和关注。这一事件反映了西班牙在住房危机和贫困问题上的严重性，同时也揭示了社会不平等和老年人权利保护的不足。这一事件不仅在当地引起了广泛的讨论，也引发了关于住房政策和社会正义的更广泛的社会运动。",
         "source": "BBC国际",
         "region": "欧洲",
         "type": "政治",
@@ -121,108 +209,97 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 12,
-        "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-        "summary": "💡 深度简报：2023年10月7日，以色列纪念三年前哈马斯领导的攻击受害者，这场攻击引发了对加沙地带的毁灭性战争。在此次纪念活动中，以色列民众聚集在多个地点，举行了各种纪念仪式，以悼念在那场袭击中丧生的无辜平民和军人。这场袭击造成了严重的人员伤亡和财产损失，对以色列社会和心理产生了深远的影响。同时，这一事件也加剧了以色列与哈马斯之间的紧张关系，对整个地区安全形势产生了不良影响。",
-        "source": "BBC国际",
-        "region": "其他",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 13,
-        "title": "Israelis demand accountability over 7 October failures three years after attacks",
-        "summary": "💡 深度简报：这篇新闻的核心事件是，以色列总理本雅明·内塔尼亚胡在七·一零袭击事件发生三年后，拒绝为事件承担责任或下令进行国家调查。背景细节包括袭击事件本身以及以色列政府对此事件的反应。深远影响可能包括对以色列国内政治的影响，以及对以色列与其他国家关系的影响。事件可能引发公众对政府决策和军事行动的质疑，对内塔尼亚胡的领导地位产生挑战。此外，这可能会影响以色列与阿拉伯国家的关系，以及国际社会对以色列的看法。",
-        "source": "BBC国际",
-        "region": "其他",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 14,
-        "title": "France halts use of stun grenades after boy's hand blown off in student protests",
-        "summary": "💡 深度简报：法国政府近日宣布暂停使用催泪瓦斯弹，这一决定是在一名少年在学生抗议活动中手部被炸断后做出的。事件引发了多组团体对警方过度使用武力针对青少年的投诉。这一事件不仅凸显了法国警方在处理抗议活动时的武力使用问题，也引发了公众对于青少年权益保护和社会秩序维护的讨论。长远来看，此举可能会对法国的公共安全政策和青少年权益保护法律产生深远影响。",
-        "source": "BBC国际",
-        "region": "欧洲",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 15,
-        "title": "Canada suspends plans to expand assisted dying to people with mental illness",
-        "summary": "💡 深度简报：加拿大政府原计划于2027年3月将安乐死扩展至患有精神疾病的人群，但这一计划已被无限期暂停。此举引发了公众对于精神健康与安乐死伦理界限的广泛关注。在加拿大，安乐死的扩展曾被视为对末期疾病患者的人道关怀，而此次将精神疾病患者纳入范围则引发了更多争议。专家表示，这一决策暂停可能是因为政府在权衡精神健康问题的复杂性以及安乐死的伦理和法律问题。此举将对精神健康服务的提供、患者权益保护以及社会价值观产生深远影响。",
-        "source": "BBC国际",
-        "region": "其他",
-        "type": "政策",
-        "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 16,
-        "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-        "summary": "💡 深度简报：美国总统特朗普计划与俄罗斯总统普京就俄罗斯实验室工作人员死亡事件进行讨论。该工作人员的死亡引起了关于可能是由肺鼠疫引起的担忧。这一事件促使国际社会对俄罗斯提出了更高的透明度要求。该事件的核心在于对公共卫生安全的关注，以及对国际透明度和信息共享的讨论。这可能对全球公共卫生政策产生深远影响，尤其是对那些可能存在类似健康风险的地区。此外，它也可能影响美俄关系，特别是在两国领导人之间的沟通和信任问题上。",
-        "source": "BBC国际",
-        "region": "美国",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 17,
-        "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
-        "summary": "💡 深度简报：乌克兰北部一栋公寓楼在夜间遭到俄罗斯导弹袭击，造成包括5名儿童在内的19人死亡。此次袭击导致该公寓楼内的30套住宅被毁。事件发生时，许多居民正在睡眠中，这场悲剧凸显了乌克兰战争对平民造成的巨大伤害。这场袭击不仅对受影响家庭造成了不可挽回的损失，也加剧了乌克兰局势的不稳定，进一步提升了地区紧张局势，可能对国际社会的和平与安全产生深远影响。",
-        "source": "BBC国际",
-        "region": "欧洲",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 18,
-        "title": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
-        "summary": "💡 深度简报：斯里兰卡前第一夫人因涉嫌滥用儿童医院捐款被逮捕。斯里兰卡前第一夫人，73岁，因涉嫌其关联的慈善机构滥用儿童医院捐款而被警方逮捕。这些捐款原本是为了支持儿童医院的建设和运营。警方指控称，慈善机构并未按照捐赠者的意愿使用这些资金，而是将其用于其他目的。此事件引发了公众对慈善机构和政治人物诚信的质疑，同时也对斯里兰卡的慈善事业和医疗体系产生了负面影响。",
-        "source": "BBC国际",
-        "region": "其他",
-        "type": "政治",
-        "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 19,
-        "title": "Chinese runner dropped by sponsor after riding bike during marathon",
-        "summary": "💡 深度简报：中国运动员孙媛媛在柏林马拉松比赛中，被拍摄到骑在其他人的自行车上。这一行为违反了马拉松比赛的规则，导致她的赞助商将其解约。这起事件引发了关于运动员职业道德和赞助商责任的大讨论，同时也对马拉松运动在公众心中的形象产生了影响。",
-        "source": "BBC国际",
-        "region": "欧洲",
-        "type": "体育",
-        "url": "https://www.bbc.co.uk/news/articles/c3y0enr9e078o?at_medium=RSS&at_campaign=rss",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
         "id": 20,
-        "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
-        "summary": "💡 深度简报：2023年，化学领域的诺贝尔奖授予了两位科学家，一位是法国科学家，另一位是日本科学家，以表彰他们在解开生命不对称性之谜方面所取得的突破性成果。这一发现不仅揭示了生命起源的一个重要方面，而且可能对生物化学、医学和生物学等领域产生深远影响。研究团队通过复杂的实验和理论分析，揭示了生物分子在进化过程中如何选择性地形成特定的结构，从而导致了生物体的左右对称。这一发现有助于我们更好地理解生命的基本特性，并对药物设计、疾病治疗等领域提供新的思路。",
+        "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+        "summary": "💡 深度简报：韩国召回乌克兰大使的事件源于乌克兰揭露了两名朝鲜囚犯被转移到首尔的消息。这一事件是近期两国之间外交争端的最新发展。背景细节包括乌克兰对朝鲜囚犯转移的披露，这可能涉及朝鲜与韩国之间的秘密协议，以及可能对乌克兰产生的影响。这一事件可能对韩国与乌克兰之间的关系产生深远影响，包括影响两国在朝鲜半岛问题上的合作。同时，这也可能对韩国与俄罗斯的关系产生影响，因为乌克兰与俄罗斯在政治和地缘政治上存在紧张关系。此外，这一事件也可能引发国际社会对朝鲜囚犯转移的讨论，特别是关于囚犯权利和人道主义问题的讨论。",
         "source": "BBC国际",
-        "region": "欧洲",
-        "type": "科技",
-        "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
         "isImportant": false,
         "keyword": ""
     },
     {
         "id": 21,
+        "title": "How a U.S. Diplomat Suppressed and Altered Reports Critical of Israel",
+        "summary": "💡 深度简报：这篇新闻报道了一名美国外交官如何篡改和压制对以色列政府的批评性报告。根据多位官员和《时代》杂志获得的文件，Mike Huckabee的高级助手故意歪曲信息，以美化内塔尼亚胡政府。这一行为不仅影响了对以色列政策的形成，还可能对美以关系产生长远影响。",
+        "source": "纽约时报",
+        "region": "美国",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/middleeast/israel-embassy-milstein-huckabee.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 22,
+        "title": "‘Absolute Nightmare’: Inside the Russian Warehouses Bombarded by Ukraine",
+        "summary": "💡 深度简报：这篇新闻的核心事件是乌克兰对俄罗斯电商公司的仓库进行夜间轰炸，导致员工不得不在深夜紧急疏散，并对生命安全感到恐惧。背景细节包括乌克兰对俄罗斯电商企业的针对性打击，以及俄罗斯电商公司在战争背景下的艰难生存状态。深远影响包括可能加剧俄罗斯与乌克兰之间的紧张关系，影响俄罗斯电商行业的发展，并对俄罗斯国内经济产生间接影响。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/europe/russia-wildberries-ozon-warehouse-ukraine-attacks.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 23,
+        "title": "Myanmar’s Strongman President Is on a Global Quest for Legitimacy. Next Stop, Malaysia.",
+        "summary": "💡 深度简报：缅甸的强人总统敏昂莱在经历军事生涯到民装转变后，目前访问了马来西亚，这是他寻求国际认可的第9个国家。此次访问标志着敏昂莱试图在国际舞台上为自己的政权赢得合法性。背景是缅甸自2011年以来的民主转型过程中，军方依然保持着显著的影响力。此次出访可能是为了寻求邻国的支持和认同，以稳定其国内政治局势。长远来看，此行可能影响缅甸与马来西亚的关系，以及缅甸在国际社会中的地位。对于缅甸的政治稳定和区域安全都有潜在影响。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/asia/myanmar-president-malaysia.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 24,
+        "title": "For France’s Resurgent Far Left, Student Protests Are an Opening and a Threat",
+        "summary": "💡 深度简报：法国极左翼势力近期因学生抗议活动而重新崛起。极左翼领导人支持学生抗议，而政府官员则指责这些领导人利用抗议活动来谋取政治利益。学生抗议活动成为极左翼势力在法国政治舞台上的一个机遇，同时也可能对政府构成威胁。这一事件反映了法国当前的政治局势，以及极左翼势力在年轻一代中的影响力。此次抗议可能引发更广泛的社会动荡，对法国的政治稳定和社会和谐产生深远影响。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/europe/france-protests-far-left-melenchon.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 25,
+        "title": "Israel and U.K. Cut Last-Minute Deal to Avoid Full Closure of British Consulate in East Jerusalem",
+        "summary": "💡 深度简报：以色列和英国在最后一刻达成协议，避免了英国驻东耶路撒冷领事馆的全面关闭。这一领事馆是数十年来向巴勒斯坦人提供援助的中心。由于这一协议，一个规模较小的外交服务机构将继续存在。这一事件反映了中东地区复杂的政治局势，特别是以色列与巴勒斯坦之间的紧张关系。此举可能对英国在中东的外交政策产生影响，同时也可能对巴勒斯坦人民的生活产生间接影响。",
+        "source": "纽约时报",
+        "region": "其他",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/europe/uk-israel-consulate-east-jerusalem-palestinians.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 26,
+        "title": "Italy Weighs Controversial Law Giving Bonus Seats to Election Winners",
+        "summary": "💡 深度简报：意大利正在考虑一项备受争议的法律，该法律将赋予选举胜利者额外席位。支持者认为这项法案将带来国家稳定的政治环境，因为意大利历史上多次出现短期政府。然而，批评者认为这项措施对民主构成威胁，担心它可能加剧政治极化。该法案的通过将影响意大利的政治格局，可能加剧政治分裂，并引发对民主制度健康的担忧。此外，该法案可能会影响未来政府的稳定性和政策连续性，对意大利的国内外政策产生长远影响。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/2026/10/08/world/europe/italy-election-law-bonus.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 27,
+        "title": "Here’s the latest.",
+        "summary": "💡 深度简报：法国的抗议活动在周四再次爆发，这标志着法国国内对于全国性抗议活动的又一次考验。这次抗议活动由法国的各路社会活动家和民众组织，旨在表达对当前政府政策的不满。背景细节包括经济问题、社会不平等以及民众对政府决策的信任度下降。深远影响可能包括对政府稳定性的挑战，以及对法国社会和政治格局的潜在重塑。尽管抗议活动规模和影响力尚不确定，但它们可能对法国的国内政治产生长远影响。",
+        "source": "纽约时报",
+        "region": "欧洲",
+        "type": "政治",
+        "url": "https://www.nytimes.com/live/2026/10/08/world/france-protests-students-schools/france-protests-unrest-students",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 28,
         "title": "‘Maricarmen,’ Whose Eviction Enraged Spaniards, Dies at 87",
-        "summary": "💡 深度简报：María del Carmen Abascal，一位年迈且体弱多病的女性，因为两周前被驱逐而成为西班牙住房危机的象征。这一事件引发了大规模的抗议活动，并最终触发了全国性的选举。Abascal的驱逐事件揭示了西班牙住房市场的紧张状况，以及社会对住房权利的关注。这一事件不仅引起了国内外的广泛关注，还可能对西班牙的政治格局产生长远影响。",
+        "summary": "💡 深度简报：María del Carmen Abascal，一位年迈且身患重病的女性，因两周前被驱逐出住所而成为国家住房危机的象征。这一事件引发了大规模的抗议活动，并最终促成了全国性选举的举行。Abascal的驱逐事件暴露了西班牙在住房保障和贫困问题上的严重挑战，同时也反映了社会对政府住房政策的广泛不满。",
         "source": "纽约时报",
         "region": "欧洲",
         "type": "政治",
@@ -231,9 +308,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 22,
+        "id": 29,
         "title": "Man Posing as ICE Agent at Miami Polling Site Faces Felony Charges",
-        "summary": "💡 深度简报：一名男子在迈阿密的巴西总统选举投票站点冒充ICE（美国移民和海关执法局）官员，他身穿从亚马逊购买的ICE服装。此事件已导致该男子面临重罪指控。该事件揭示了选举过程中的潜在安全问题，以及个人冒充公职人员可能带来的严重后果。此次事件在迈阿密发生，可能会对当地社区产生一定影响，并引发对选举安全的进一步讨论。",
+        "summary": "💡 深度简报：一名男子在迈阿密的一个投票站假扮为ICE（美国移民和海关执法局）特工，他身穿从亚马逊购买的ICE服装，出现在巴西总统选举的投票地点。这一事件引发了公众对选举安全和个人权利的担忧。该男子丹尼洛·阿尔维斯·席尔瓦（Danilo Alves Silva）因此面临重罪指控。这一事件突显了在选举期间维护投票安全的重要性，同时也可能引发对选举过程中潜在欺诈行为的关注。",
         "source": "纽约时报",
         "region": "美国",
         "type": "政治",
@@ -242,9 +319,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 23,
+        "id": 30,
         "title": "For Twin Brothers Abducted in the Oct. 7 Attacks, Adjusting to Freedom Is a New Challenge",
-        "summary": "💡 深度简报：Gali和Ziv Berman，一对双胞胎兄弟，在2023年10月7日遭遇了绑架，当时他们的集体农庄遭到袭击。经过一年的囚禁，他们于去年获释。然而，重返自由生活对他们来说是一大挑战，他们正在努力调整自己并重建生活。这一事件不仅对他们的个人生活产生了深远影响，也引发了关于安全、恐怖主义和社区团结的广泛讨论。",
+        "summary": "💡 深度简报：Gali和Ziv Berman是两兄弟，他们在2023年10月7日遭到绑架，当时他们的集体农庄遭到袭击。一年前，他们被释放，但仍在努力适应自由并重建生活。这次绑架事件对他们的个人生活造成了深远的影响，同时也引发了关于集体农庄安全和地区安全的讨论。",
         "source": "纽约时报",
         "region": "其他",
         "type": "政治",
@@ -253,86 +330,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 24,
-        "title": "Canada Halts Plan to Allow Medically Assisted Death for the Mentally Ill",
-        "summary": "💡 深度简报：加拿大政府近日宣布暂停一项计划，该计划原本允许患有精神疾病的人士通过医疗辅助死亡。这一决定意味着，仅凭精神疾病本身并不能使患者符合医疗辅助死亡的条件。然而，对于同时患有其他疾病且预期将出现认知能力下降的患者，他们可以提前提出医疗辅助死亡请求。这一政策调整引发了关于精神疾病患者权利和生命尊严的广泛讨论，同时也对加拿大医疗体系和社会伦理观念产生了深远影响。",
-        "source": "纽约时报",
-        "region": "其他",
-        "type": "政策",
-        "url": "https://www.nytimes.com/2026/10/07/world/canada/canada-medically-assisted-death-mental-illness.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 25,
-        "title": "Rubio Urges Europe to Awaken From ‘Slumber’ and Uphold Western Dominance",
-        "summary": "💡 深度简报：美国国务卿Marco Rubio在希腊发表讲话，呼吁欧洲国家从‘沉睡’中醒来，重拾探索和征服的精神，以维持西方的全球领导地位。他强调，这是西方文明的一部分，只有这样，西方国家才能保持在全球的领先地位。这一言论在国际政治舞台上引起了广泛关注，被认为是对当前国际关系格局的评论和预测，同时也反映了美国对欧洲地位和全球战略的期望。",
-        "source": "纽约时报",
-        "region": "美国",
-        "type": "政治",
-        "url": "https://www.nytimes.com/2026/10/07/world/europe/rubio-greece-defense-immigration.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 26,
-        "title": "Ukraine Claws Back Land in the Donbas, Thwarting a Russian Push",
-        "summary": "💡 深度简报：乌克兰在顿巴斯地区成功夺回土地，阻止了俄罗斯试图包围乌克兰“堡垒地带”城市的行动。这一事件表明，尽管莫斯科声称其控制该地区是不可避免的，但基辅已经成功地干扰了俄罗斯的计划。这一胜利不仅为乌克兰提供了战略上的缓冲，而且可能在国际舞台上影响乌克兰与俄罗斯之间的未来关系，以及西方对乌克兰的支持力度。同时，这也反映了乌克兰军队在战术上的灵活性和战斗力，对国际社会对乌克兰战争局势的评估具有重要意义。",
-        "source": "纽约时报",
-        "region": "欧洲",
-        "type": "政治",
-        "url": "https://www.nytimes.com/2026/10/07/world/europe/ukraine-battlefield-operation-vivaldi.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 27,
-        "title": "The Fight for Britain’s Right: Can Kemi Badenoch Reboot the Conservatives?",
-        "summary": "💡 深度简报：这篇新闻的核心事件是英国保守党领袖Kemi Badenoch在党的年度会议上受到了与会者的支持，这得益于她的民意调查评分上升以及一项模仿贝叶斯卷轴的活动。然而，来自Reform U.K.党的挑战依然存在。背景细节包括Badenoch作为领袖的受欢迎程度提升，以及党内对改革派别的关注。深远影响可能包括对英国保守党未来政策方向的影响，以及对英国政治格局的可能改变。此次事件并未涉及马斯克、苹果、关税、美联储或美伊战争等关键词，因此对上述关键词的关注度没有直接影响。",
-        "source": "纽约时报",
-        "region": "欧洲",
-        "type": "政治",
-        "url": "https://www.nytimes.com/2026/10/07/world/europe/uk-conservatives-kemi-badenoch-right-farage.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 28,
-        "title": "Russia Says It Found No ‘Emergency’ in Plague Lab",
-        "summary": "💡 深度简报：俄罗斯官方表示，在对一名实验室工作人员死亡的调查中，并未发现与瘟疫实验室相关的紧急情况。这名工作人员死亡的消息引发了对实验室安全的关注，特别是她曾被接种过瘟疫疫苗的信息。美国官员要求提供更多数据以进行进一步的调查。这一事件不仅涉及到公共卫生安全问题，还可能引发国际间的紧张关系，特别是在当前全球疫情背景下。该事件对全球公共卫生安全产生潜在影响，可能引发国际社会对实验室安全标准和监管的重新审视。",
-        "source": "纽约时报",
-        "region": "其他",
-        "type": "宏观",
-        "url": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-us-trump-state-department.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 29,
-        "title": "The School Near Paris That Shows Why French Students Are Protesting",
-        "summary": "💡 深度简报：巴黎近郊的保罗·艾吕雅高中学生因不满糟糕的教室条件，在持续的抗议活动中成为了最早封锁校园的学生之一。这起事件反映了法国学生普遍对教育投入不足、教学设施老化以及教育资源分配不均的不满。学生们要求政府增加教育投资，改善教学环境，并提高教师待遇。这一抗议活动可能引发更广泛的校园抗议，对法国政府的教育政策和公众舆论产生深远影响。",
-        "source": "纽约时报",
-        "region": "欧洲",
-        "type": "政治",
-        "url": "https://www.nytimes.com/2026/10/07/world/europe/france-school-protest-paul-eluard.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 30,
-        "title": "Europe’s Trade Tensions With China Are Coming to a Head",
-        "summary": "💡 深度简报：欧洲联盟正在考虑实施更严格的贸易措施，以应对中国出口激增对欧洲关键产业的压力。这标志着欧盟与中国之间的贸易紧张关系达到了新的高度。背景细节包括中国出口的增长对欧洲汽车、电子和其他行业的冲击，以及双方在贸易谈判中的僵局。这一事件可能对欧洲经济产生深远影响，包括影响就业、经济增长和双边关系。长远来看，这可能加剧全球贸易紧张局势，影响全球供应链。",
-        "source": "纽约时报",
-        "region": "欧洲",
-        "type": "财经",
-        "url": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
         "id": 31,
         "title": "Palestinians Stream Back to Northern Gaza on Foot",
-        "summary": "💡 深度简报：新闻的核心事件是巴勒斯坦人在以色列解除封锁后开始步行返回加沙北部地区。背景细节包括巴勒斯坦人因冲突而被迫离开家园，以及以色列和巴勒斯坦在赎回人质问题上达成的协议。这一事件对地区和平与安全产生了深远影响，可能加剧了地区紧张局势，并对当地居民的日常生活造成了重大影响。此次事件与马斯克、苹果、关税、美联储、美伊战争等关键词无直接关联。",
+        "summary": "💡 深度简报：新闻的核心事件是，在以色列与加沙地带的巴勒斯坦人之间关于人质释放的僵局被打破后，以色列允许流离失所的加沙人开始穿越一个将飞地一分为二的军事区域。背景细节包括加沙地带的巴勒斯坦人因冲突而被迫流离失所，以及以色列在军事区域设立禁令，限制人员流动。此次事件的发生，反映了中东地区持续的紧张局势，以及以色列与巴勒斯坦之间的复杂关系。深远影响包括可能对双方的和平进程产生积极或消极的影响，同时可能引发地区其他国家的关注和反应。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "政治",
@@ -343,7 +343,7 @@ const newsData = [
     {
         "id": 32,
         "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
-        "summary": "💡 深度简报：万科，中国领先的房地产开发商，近日发布了巨额亏损报告，这标志着中国房地产危机的进一步扩大。万科的亏损引发了市场对其持续扩张的担忧，同时也引发了对中国政府是否会介入的疑问。万科的困境反映了整个行业面临的挑战，包括高杠杆率、销售放缓和资金链紧张。这一事件不仅对万科自身构成重大影响，也可能对整个中国房地产市场产生连锁反应，影响经济增长和金融稳定。此外，万科的亏损也可能对投资者信心造成打击，进一步加剧市场波动。",
+        "summary": "💡 深度简报：万科，中国领先的房地产开发商，近期发布了巨额亏损报告，这一消息引发了市场对房地产危机持续蔓延的担忧，同时也引发了外界对于中国政府是否会介入的猜测。万科的亏损报告揭示了整个房地产市场的困境，包括高负债、销售下滑和资金链紧张等问题。这一事件不仅对中国房地产市场产生了深远影响，也对全球经济产生了潜在的冲击。万科的亏损可能预示着中国房地产市场的调整期将进一步延长，同时，这也可能引发其他房地产企业的跟风效应，进一步加剧市场的不稳定性。",
         "source": "华尔街日报",
         "region": "中国",
         "type": "财经",
@@ -354,7 +354,7 @@ const newsData = [
     {
         "id": 33,
         "title": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
-        "summary": "💡 深度简报：这篇新闻报道了以色列被释放人质的情况，揭示了他们在10月7日袭击中遭受的严重伤害。一些女性被单独关押了很长时间，并在隧道中度过了八个月。报道中提到这些人质身上仍留有弹片，表明袭击的严重性和对受害者造成的长期影响。这一事件不仅对以色列国内的政治和社会产生了深远影响，也可能对中东地区的安全形势产生连锁反应。",
+        "summary": "💡 深度简报：该新闻报道了以色列在10月7日袭击后释放的囚犯身体状况。一些女性囚犯在袭击中受伤，并在被俘期间长时间单独关押，长达八个月在隧道中生活。这些囚犯在被释放时，身体中仍残留有弹片。这起事件凸显了冲突的残酷性和对平民造成的长期伤害，同时也反映了救援行动的困难和人道主义关怀的重要性。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "政治",
@@ -365,7 +365,7 @@ const newsData = [
     {
         "id": 34,
         "title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
-        "summary": "💡 深度简报：这篇新闻报道了北约首次对其关键基础设施遭受疑似破坏行为做出的协调响应。事件起因是波罗的海又有一根海底电缆被切断。这一事件凸显了网络安全和国际海上交通线路安全的重要性，可能对欧洲乃至全球的通信和贸易造成重大影响。",
+        "summary": "💡 深度简报：本文报道了一起针对关键基础设施的疑似破坏事件，这是北约首次对其协调响应。事件发生在波罗的海，另一条海底电缆被切断。这起事件引发了国际社会的关注，特别是对于网络基础设施安全的担忧。海底电缆是国际通信的重要部分，其破坏可能会影响全球互联网的稳定性和安全性。北约的介入表明了其对网络安全的重视，以及对于此类事件的快速响应能力。这一事件可能对波罗的海地区的安全格局产生影响，并可能引发对海底电缆安全的更广泛讨论。",
         "source": "华尔街日报",
         "region": "欧洲",
         "type": "科技",
@@ -376,7 +376,7 @@ const newsData = [
     {
         "id": 35,
         "title": "Rwanda-Backed Rebels Enter Congo's Safe-Haven City",
-        "summary": "💡 深度简报：卢旺达支持的叛军攻占了刚果（金）的避难城市戈马，据报道，居民听到了枪声和炮火。联合国官员估计，现在有超过一百万流离失所者在城市内。这一事件加剧了刚果（金）的内部冲突，可能引发区域不稳定，并增加地区安全挑战。背景细节包括刚果（金）长期的政治不稳定和冲突，以及外部势力如卢旺达的干预。这一事件对区域安全和国际关系有着深远的影响，特别是对东非地区的稳定构成威胁。",
+        "summary": "💡 深度简报：卢旺达支持的叛军攻占了刚果（金）的避难城市戈马，据报道，当地居民听到了枪声和炮火。联合国官员估计，现在有超过一百万流离失所者在城市内。这一事件反映了刚果（金）长期动荡局势的加剧，以及地区冲突对平民造成的巨大影响。卢旺达长期以来一直被指控在刚果（金）的冲突中扮演角色，这一事件可能会加剧地区紧张局势，并对该地区的和平与稳定构成威胁。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "政治",
@@ -387,7 +387,7 @@ const newsData = [
     {
         "id": 36,
         "title": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact",
-        "summary": "💡 深度简报：这篇新闻的核心事件是哥伦比亚在和平协议签订八年之后，由强力民兵对平民的袭击活动加剧。这些民兵是由可卡因资金支持的，反映出国家在移除强大的叛乱组织后八年来的不作为。背景细节包括哥伦比亚在2016年与叛乱组织FARC签订了和平协议，结束了长达数十年的内战。然而，尽管叛乱组织被削弱，但由可卡因资金支持的犯罪团伙仍然活跃，这些团伙通过暴力手段控制了部分地区。深远影响包括对哥伦比亚的社会稳定、经济发展以及国际形象造成了负面影响，同时也引发了对国家治理和执法机构效率的质疑。",
+        "summary": "💡 深度简报：哥伦比亚在八年前签署和平协议后，原本的强大反叛组织被削弱，但如今，由可卡因资金支持的强大武装团伙对平民的袭击事件频发，反映出国家在此期间未能采取有效措施。这些团伙的崛起与国家的失职有关，同时也揭示了哥伦比亚治安形势的严峻性。这一事件不仅对哥伦比亚国内的政治稳定和经济发展造成威胁，也可能对整个地区的安全形势产生影响。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "政治",
@@ -398,7 +398,7 @@ const newsData = [
     {
         "id": 37,
         "title": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says",
-        "summary": "💡 深度简报：意大利总理梅洛尼表示，意大利支持沙特阿拉伯加入全球战斗机项目。该项目由英国、意大利和日本共同参与，旨在开发一种新型隐形超音速战斗机，预计将于2035年投入使用。这一合作标志着中东地区与欧洲在军事技术领域的深入合作，可能对全球战斗机市场产生重大影响，并可能改变中东地区的军事平衡。",
+        "summary": "💡 深度简报：意大利总理梅洛尼表示支持沙特阿拉伯加入全球战斗机项目，该项目由英国、意大利和日本合作，旨在开发一款具有隐身能力和超音速飞行能力的战斗机，计划于2035年投入使用。这一合作对提升区域军事实力、加强欧洲与中东的合作关系以及全球航空技术发展具有深远影响。",
         "source": "华尔街日报",
         "region": "欧洲",
         "type": "政治",
@@ -409,7 +409,7 @@ const newsData = [
     {
         "id": 38,
         "title": "Shippers Wary of Red Sea Routes Despite Houthi Pledge to End Targeting",
-        "summary": "💡 深度简报：全球最大的三家集装箱运输运营商表示，尽管胡塞武装承诺停止针对红海航线的袭击，但鉴于加沙地带的不稳定和更广泛的地区紧张局势，他们仍然担心持续的航行危险。这表明尽管地区冲突有所缓解，但航运业仍对地区安全状况持谨慎态度，这可能会影响全球贸易和供应链。",
+        "summary": "💡 深度简报：这篇新闻报道了全球最大的三家集装箱运输运营商对红海航线的担忧。尽管胡塞武装承诺停止针对商船的袭击，但由于加沙地带的不稳定和更广泛的地区紧张局势，这些公司仍然担心航线安全。这种担忧可能对全球贸易产生重大影响，尤其是对依赖红海航线运输的货主来说，可能会增加运输成本和风险。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "财经",
@@ -420,7 +420,7 @@ const newsData = [
     {
         "id": 39,
         "title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
-        "summary": "💡 深度简报：朝鲜领导人金正恩为了遏制好莱坞和K-pop文化对年轻人的影响，正在推崇一支由30万名青少年和20多岁年轻人组成的“突击队”，这些成员被征召参与洪水重建工作。这一举措旨在强化国家的意识形态教育，同时提高国家的防灾能力。金正恩的这一策略反映出他对国家文化控制的重视，以及对年轻一代的思想引导的紧迫性。此举可能对朝鲜的政治稳定和年轻人的未来发展产生深远影响。",
+        "summary": "💡 深度简报：朝鲜领导人金正恩为了抵制好莱坞和K-pop文化的影响，正在大力推崇一支由30万名青少年和20多岁年轻人组成的“突击队”，这些成员被征召参与洪水重建工作。这一举措旨在强化国家的意识形态教育，同时加强青年一代对政府的忠诚度。金正恩的这一策略反映了朝鲜对文化输出的警惕，以及对内部稳定的重视。此举可能对朝鲜国内青年的心理和社会态度产生深远影响，同时也可能加剧朝鲜与外部世界之间的文化隔阂。",
         "source": "华尔街日报",
         "region": "其他",
         "type": "政治",
@@ -431,7 +431,7 @@ const newsData = [
     {
         "id": 40,
         "title": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff",
-        "summary": "💡 深度简报：美国总统特朗普宣布哥伦比亚将接受遣返移民，这一决定标志着结束了美国与哥伦比亚之间的关税僵局。特朗普在第二任期初期就将移民问题作为优先事项，美国移民和海关执法局（ICE）在周日进行了超过900次逮捕。这一事件的核心在于美国对移民政策的调整，以及其对国际贸易关系的影响。哥伦比亚接受遣返移民可能有助于缓解美国在移民问题上的压力，同时也可能对两国之间的贸易关系产生积极影响。然而，这一决定也可能引发人权和移民权利的争议，并对美国的国际形象产生深远影响。",
+        "summary": "💡 深度简报：美国总统特朗普宣布哥伦比亚将接受遣返移民，这一决定标志着结束了对哥伦比亚的关税 standoff。在特朗普新任期初，移民问题成为其优先关注事项，美国移民及海关执法局（ICE）在周日进行了超过900次逮捕。这一决策可能对美墨边境移民问题产生影响，并可能进一步加剧美国与哥伦比亚之间的关系。",
         "source": "华尔街日报",
         "region": "美国",
         "type": "政治",
@@ -441,19 +441,52 @@ const newsData = [
     },
     {
         "id": 41,
-        "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
-        "summary": "💡 深度简报：美国联邦储备系统（美联储）在9月15日至16日的政策会议中，预计未来将再次提高利率，但具体时间尚未明确。这一信息被包含在会议纪要中，并于周三公布。这表明美联储对经济前景的评估有所改变，可能反映了通货膨胀压力或经济增长放缓。这一决策对未来美国的货币政策、市场预期以及全球经济都可能产生深远影响。",
+        "title": "Stocks making the biggest moves premarket: Haemonetics, Broadcom, Lululemon, Palantir, Wolfspeed & more",
+        "summary": "💡 深度简报：这篇新闻报道了在盘前交易时段中股票价格波动最大的几家公司，包括血液处理设备制造商Haemonetics、半导体公司Broadcom、运动服饰品牌Lululemon、数据分析公司Palantir、碳化硅制造商Wolfspeed等。这些公司的股票价格变动可能是由于市场对它们最新财务报告的反应、行业新闻、或者宏观经济因素。这类报道通常反映了市场情绪、投资者预期以及公司基本面变化，对相关公司的股价和投资者决策有重要影响。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
-        "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+        "url": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-premarket-hae-avgo-lulu-wolf.html",
         "isImportant": false,
         "keyword": ""
     },
     {
         "id": 42,
+        "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+        "summary": "💡 深度简报：中国房地产市场经过多年的低迷期，据S&P评级机构预测，其最大城市的房地产市场可能将在明年迎来复苏。这一变化将对中国乃至全球经济产生深远影响。首先，房地产市场的复苏将有助于提振国内经济，增加就业机会，并促进相关产业的发展。其次，房地产市场的活跃将吸引更多的外资流入，改善中国在全球经济中的地位。然而，房地产市场过热也可能带来金融风险，如房价泡沫和金融不稳定。因此，中国政府需要在刺激市场的同时，加强监管，确保房地产市场的健康发展。",
+        "source": "CNBC国际",
+        "region": "中国",
+        "type": "财经",
+        "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 43,
+        "title": "Huawei doubles down on smartphones as EV sales slow",
+        "summary": "💡 深度简报：华为，作为中国的科技巨头，正致力于重建其消费业务，尤其是智能手机部门。这一战略调整发生在美国对华为实施制裁之后，这些制裁导致华为的智能手机业务收入减半。制裁的背景是美国政府对华为的担忧，认为其技术可能被用于间谍活动。尽管华为在电动汽车（EV）领域的销售增长放缓，但公司仍然将智能手机视为其核心业务之一。此次战略调整对华为来说意义重大，因为它需要在没有谷歌服务的情况下继续在全球市场上竞争，同时也可能对整个智能手机行业产生深远影响，尤其是在美国和中国两大市场上。",
+        "source": "CNBC国际",
+        "region": "中国",
+        "type": "科技",
+        "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+        "isImportant": false,
+        "keyword": ""
+    },
+    {
+        "id": 44,
+        "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+        "summary": "💡 深度简报：美联储在周三发布了其9月15日至16日政策会议的会议纪要。会议纪要显示，美联储官员认为未来可能还会进行利率上调，但具体时间尚不明确。这一消息对金融市场产生了重要影响，投资者对美联储的下一步行动持谨慎态度。尽管美联储对未来加息持开放态度，但会议纪要中并未透露具体加息的时间表，这可能导致市场对未来利率走势的预期出现波动。此次会议纪要的发布，进一步强调了美联储在货币政策上的谨慎态度，以及对美国经济前景的审慎评估。",
+        "source": "CNBC国际",
+        "region": "美国",
+        "type": "财经",
+        "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+        "isImportant": true,
+        "keyword": "美联储"
+    },
+    {
+        "id": 45,
         "title": "Stocks making the biggest moves midday: Goldman Sachs, Webull, Worthington Steel, Micron & more",
-        "summary": "💡 深度简报：这篇新闻报道了在午盘交易时段内股票市场出现大幅波动的公司。具体包括高盛（Goldman Sachs）、Webull、沃辛顿钢铁（Worthington Steel）、美光科技（Micron）等。这些公司的股票波动可能是由于市场对某些特定新闻或事件的反应，例如公司业绩发布、行业动态、宏观经济变化等。这种波动对投资者心理和股市走势有重要影响，可能导致短期内某些股票价格的大幅上涨或下跌。长期来看，这些波动也可能反映出市场对公司基本面的重新评估。",
+        "summary": "💡 深度简报：这篇新闻的核心事件是报道了在午盘时段，多家公司的股票出现了大幅波动。其中包括高盛、Webull、Worthington Steel和美光科技等。这些股票的变动可能是由于市场对某些经济或公司事件的反应，或者是投资者情绪的波动。例如，高盛的股价变动可能与其盈利报告或市场对全球经济前景的看法有关；Webull作为一家金融科技公司，其股价变动可能反映了金融科技行业的发展趋势或监管变化；Worthington Steel和美光科技的股价变动可能与行业供需、原材料价格或竞争格局有关。这些股票的波动对投资者和分析师来说至关重要，因为它们可能预示着市场趋势的变化。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
@@ -462,9 +495,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 43,
+        "id": 46,
         "title": "Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more",
-        "summary": "💡 深度简报：这篇新闻报道了在盘前交易中表现最活跃的股票，包括Constellation Brands、Flutter Entertainment和Neogen等。Constellation Brands是一家从事酒类生产和销售的跨国公司，Flutter Entertainment是一家全球领先的娱乐和媒体集团，Neogen是一家专注于食品和药物检测的公司。这些公司的股票在盘前交易中出现了显著的涨跌，反映了市场对这些公司在各自领域的表现和未来前景的预期。这些股票的动态可能对投资者产生重要影响，特别是那些对特定行业或市场趋势有特定关注的投资者。",
+        "summary": "💡 深度简报：这篇新闻的核心事件是报道了在早间交易中股票表现最活跃的公司。具体包括Constellation Brands、Flutter Entertainment和Neogen等公司。这些公司股票的变动可能是由于市场对特定行业或公司业绩的预期、宏观经济因素、行业动态或其他市场事件的影响。新闻背景细节涉及股票市场的日常动态，可能包括公司财报发布、行业新闻、市场趋势分析等。深远影响可能包括投资者情绪的波动、行业股价的整体走势以及市场对未来经济走向的预期。这篇新闻反映了资本市场的高度动态性和投资者对即时市场变化的关注。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
@@ -473,9 +506,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 44,
+        "id": 47,
         "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-        "summary": "💡 深度简报：国际货币基金组织（IMF）首席经济学家克里斯蒂娜·乔治娃（Kristalina Georgieva）警告，人工智能技术虽然有望推动经济增长，但也可能加剧通货膨胀和收益率上升，同时伴随着公共债务水平的上升。乔治娃的警告强调了人工智能在带来经济潜力的同时，也潜藏着风险和挑战，特别是在当前全球经济面临多重压力的背景下。这一言论对全球政策制定者和投资者具有重要的指导意义，要求他们审慎评估人工智能的潜在影响，并采取相应的政策措施来平衡增长与风险。",
+        "summary": "💡 深度简报：国际货币基金组织（IMF）总裁Kristalina Georgieva近日对人工智能（AI）技术发表了评论，她指出，AI技术虽然有望推动经济增长，但同时也带来了通货膨胀和收益率的上升，这与公共债务水平的上升相呼应。Georgieva的警告强调了AI技术带来的双重影响：一方面，AI可能成为经济增长的新动力；另一方面，它也可能加剧经济不稳定，尤其是对公共债务和通货膨胀的影响。这一观点对全球政策制定者来说具有重要意义，因为他们在制定经济政策和应对潜在风险时需要考虑AI技术的影响。",
         "source": "CNBC国际",
         "region": "其他",
         "type": "宏观",
@@ -484,9 +517,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 45,
+        "id": 48,
         "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-        "summary": "💡 深度简报：本文报道了S&P 500指数在周二创下日内历史新高的新闻。这一成就得益于科技股的上涨、原油价格的下降以及国债收益率的回落，这些因素共同帮助股市克服了数月来的市场波动。这一事件反映了市场对于当前经济状况的乐观态度，同时也展示了市场对于科技行业和能源市场的信心。这一纪录的刷新可能对投资者信心、市场情绪以及未来股市走势产生积极影响。",
+        "summary": "💡 深度简报：本文报道了S&P 500指数在周二创下日内新高。这一成就得益于科技股的上涨、石油价格的下跌以及国债收益率的降低，这些因素共同帮助股市克服了数月来的市场震荡。S&P 500指数的强劲表现反映了市场对经济前景的乐观态度，同时也显示出投资者对近期全球政治和地缘政治紧张局势的抵抗力。这一事件对全球经济和市场情绪产生了积极影响，尤其是对那些依赖科技和能源行业的国家。然而，它也提醒投资者，尽管市场可能表现出强劲的韧性，但全球政治和经济的不确定性仍然存在。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
@@ -495,9 +528,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 46,
+        "id": 49,
         "title": "How event contract bundles are boosting volume on prediction markets",
-        "summary": "💡 深度简报：本文报道了预测市场交易量的增长，主要归功于组合合约（combo contracts）的推出。尽管组合合约在交易中占比较小，但它们对交易量的贡献却非常显著。这种增长表明，预测市场正逐渐成为投资者进行风险管理和资产配置的新工具。组合合约可能包括对多个事件或资产的价格进行预测的合约，这为投资者提供了更多样化的交易选择。长远来看，这种趋势可能会推动预测市场的发展，使其成为金融市场的一个重要组成部分。",
+        "summary": "💡 深度简报：本文报道了预测市场交易量增长的现象，主要归因于事件合约捆绑（combo contracts）的引入。虽然这些合约在总交易量中只占一小部分，但它们的稳定增长推动了整体交易量的提升。事件合约捆绑是指将多个相关事件的结果捆绑在一起进行交易，这种交易方式为市场参与者提供了更多的交易选择和策略。这一现象可能反映了市场参与者对于事件多样性的需求增加，以及对于复杂事件预测的更高兴趣。从长远来看，这可能促使预测市场更加成熟和多样化，同时也可能对相关行业的风险管理产生积极影响。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
@@ -506,9 +539,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 47,
+        "id": 50,
         "title": "Stocks making the biggest moves premarket: Constellation Energy, Option Care Health, Lennar, P&G and more",
-        "summary": "💡 深度简报：这篇新闻报道了在早间交易中股票价格波动最大的几家公司。其中包括Constellation Energy、Option Care Health、Lennar和P&G等。这些公司的股票在交易初期表现显著，反映了市场对这些公司业绩、行业趋势或特定新闻的关注。Constellation Energy是一家能源公司，Option Care Health是一家医疗服务提供商，Lennar是一家住宅建筑商，而P&G则是一家全球消费品公司。这些公司的股票波动可能受到多种因素的影响，包括宏观经济状况、公司业绩报告、行业动态以及市场情绪等。这种股票波动对于投资者和市场分析师来说具有重要意义，因为它可以帮助他们了解市场趋势和潜在的投资机会。",
+        "summary": "💡 深度简报：这篇新闻报道了在早间交易中表现最活跃的股票，包括Constellation Energy、Option Care Health、Lennar和P&G等。这些股票的变动可能是由于市场对特定行业或公司业绩的反应，或者是由于宏观经济因素、行业趋势或其他市场动态的影响。这些变动可能对投资者决策、市场情绪和行业表现产生深远影响。",
         "source": "CNBC国际",
         "region": "美国",
         "type": "财经",
@@ -517,42 +550,9 @@ const newsData = [
         "keyword": ""
     },
     {
-        "id": 48,
-        "title": "Goldman: Diesel prices set to stay high through 2027 as refineries struggle to meet demand",
-        "summary": "💡 深度简报：高盛（Goldman Sachs）发布报告预测，由于炼油厂产能紧张，柴油价格预计将持续高企至2027年。报告指出，炼油厂需要维持高利润率以抑制需求并重建库存。这一预测对全球柴油市场及依赖柴油的运输行业产生深远影响，可能导致运输成本上升，进而影响消费者生活成本和全球经济活动。",
-        "source": "CNBC国际",
-        "region": "美国",
-        "type": "财经",
-        "url": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 49,
-        "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
-        "summary": "💡 深度简报：美国民主党议员提出一项新法案，旨在禁止联邦候选人参与与其选举相关的预测市场交易，违反此规定将面临罚款。该法案的提出源于一位民主党候选人因在预测市场交易中违反规定而受到Kalshi平台的处罚。这一事件引发了关于政治人物在预测市场中的行为规范和潜在利益冲突的讨论。该法案的深远影响在于，它可能对预测市场的运作和候选人竞选策略产生重大影响，同时也可能引发对政治透明度和利益冲突监管的更广泛讨论。",
-        "source": "CNBC国际",
-        "region": "美国",
-        "type": "政治",
-        "url": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
-        "id": 50,
-        "title": "Cocoa prices are climbing again. Here’s why this time is different",
-        "summary": "💡 深度简报：可可豆价格再次攀升，主要原因是厄尔尼诺现象威胁到了西非的供应。由于巧克力制造商难以找到吸收更高成本的有效方法，这一价格上涨趋势引发了市场关注。西非是全球最大的可可豆生产地，其供应不稳定将对全球巧克力市场产生深远影响。这次价格上涨与以往不同之处在于，它是由自然因素而非市场供需变化引起的，这可能会迫使巧克力制造商寻求替代供应源或提高产品价格，从而影响消费者。此外，这一事件可能引发对全球食品供应链稳定性的进一步讨论。",
-        "source": "CNBC国际",
-        "region": "其他",
-        "type": "财经",
-        "url": "https://www.cnbc.com/2026/10/05/cocoa-prices-are-climbing-again-heres-why-this-time-is-different.html",
-        "isImportant": false,
-        "keyword": ""
-    },
-    {
         "id": 51,
         "title": "欧洲央行宣布下调欧元区关键利率",
-        "summary": "💡 深度简报：欧洲央行在5日宣布，将欧元区三大关键利率下调25个基点，这是自去年以来第八次降息。这一决定反映出欧洲央行对欧元区经济增长放缓的担忧，尤其是在新冠疫情的影响下，欧洲经济面临着复苏的挑战。此次降息旨在刺激经济活动，通过降低借贷成本来鼓励消费和投资。这一举措可能对欧元区各国的财政政策和货币政策产生深远影响，同时也会对全球经济产生一定的溢出效应。尽管降息有助于缓解当前的经济压力，但长期来看，过度的货币宽松可能引发通货膨胀和资产泡沫等风险。",
+        "summary": "💡 深度简报：欧洲中央银行（European Central Bank, ECB）于5日宣布，将欧元区三大关键利率——主要再融资利率、边际借贷利率和存款设施利率——分别下调25个基点。这是自2022年以来欧洲央行第八次降息，表明欧洲央行对欧元区经济增长放缓和通货膨胀压力的担忧。此次降息旨在刺激经济增长，特别是考虑到近期全球经济放缓的迹象以及能源价格飙升对欧元区经济的冲击。此举可能对欧元区的企业和消费者信心产生积极影响，但也可能引发关于货币政策可持续性的讨论，以及对通货膨胀控制的担忧。",
         "source": "人民网",
         "region": "欧洲",
         "type": "财经",
@@ -563,21 +563,21 @@ const newsData = [
     {
         "id": 52,
         "title": "美联储“褐皮书”：美国经济不确定性居高位　关税推高物价",
-        "summary": "💡 深度简报：美联储发布的最新经济形势报告，即‘褐皮书’，显示美国经济面临较高不确定性和政策风险。报告指出，自4月下旬以来，美国经济活动有所下降，制造业活动轻度下滑，消费者支出情况不一。所有联邦储备区均面临经济和政策的不确定性，导致企业和家庭决策谨慎。同时，关税上调带来的成本和物价上涨压力对经济产生负面影响。报告显示，就业状况变化不大，但劳动力需求有所下降。物价略有上涨，预期未来物价将以更快速度上涨。报告强调，经济前景依然轻度悲观和不确定。这一报告将成为美联储下一次货币政策会议的重要参考资料。",
+        "summary": "💡 深度简报：美国联邦储备委员会发布的全国经济形势调查报告（即“褐皮书”）显示，美国经济和政策的不确定性处于高位，对企业和家庭决策造成不利影响。报告指出，自4月下旬以来，美国经济活动整体出现小幅下降，制造业活动轻度下降，消费者支出情况混杂不一。就业方面，劳动力需求有所下降，物价略有上涨，各联邦储备区普遍预计成本和物价将以更快速度上涨。关税上调导致成本和物价上涨压力增加。报告对美联储货币政策会议具有重要参考价值，下一次会议将于6月17日至18日举行。",
         "source": "人民网",
         "region": "美国",
         "type": "财经",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494887.html",
-        "isImportant": false,
-        "keyword": ""
+        "isImportant": true,
+        "keyword": "关税"
     },
     {
         "id": 53,
         "title": "商务部：中方对合规稀土出口许可申请将予以批准",
-        "summary": "💡 深度简报：商务部新闻发言人何咏前在例行新闻发布会上宣布，中国政府将依法依规审查稀土等具有军民两用属性的物项出口许可申请。鉴于稀土出口对国际通行做法中的出口管制，符合规定的申请将获得批准，以促进便利合规贸易。这一政策调整反映了我国对稀土资源出口管制的灵活性，同时也体现了对国际市场秩序的尊重和维护。",
+        "summary": "💡 深度简报：商务部新闻发言人何咏前在例行新闻发布会上宣布，中国将依法依规审查稀土等相关物项的出口许可申请，并对符合规定的申请予以批准。此举是为了促进便利合规贸易，并强调稀土等物项具有军民两用属性，实施出口管制是国际通行做法。这一政策调整对于维护国际稀土市场的稳定，以及中国在全球稀土产业中的地位具有重要意义。",
         "source": "人民网",
         "region": "中国",
-        "type": "政策",
+        "type": "宏观",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494861.html",
         "isImportant": false,
         "keyword": ""
@@ -585,10 +585,10 @@ const newsData = [
     {
         "id": 54,
         "title": "外交部：中国愿继续与各方一道推动共建清洁、美丽、可持续的世界",
-        "summary": "💡 深度简报：外交部发言人林剑在6月5日世界环境日例行记者会上表示，中国是全球绿色发展的坚定行动派和重要贡献者。中国提出‘绿水青山就是金山银山’理念20年来，在生态治理领域取得显著成就，成为全球能耗强度降低最快、空气质量改善最明显的国家之一。中国在可再生能源开发等领域取得显著成就，帮助其他发展中国家实施能源转型项目。中国与100多个国家和地区开展绿色能源项目合作，为世界提供80%以上的光伏组件和70%的风电装备，推动全球风电和光伏发电项目成本大幅下降。中国强调将继续以‘赋能型大国’的担当，与各方一道履行共同但有区别的责任，推动共建清洁、美丽、可持续的世界。",
+        "summary": "💡 深度简报：这篇新闻的核心事件是中国外交部发言人林剑在6月5日世界环境日上表示，中国将继续推动共建清洁、美丽、可持续的世界。背景细节包括中国作为绿色发展的坚定行动派，在生态治理、可再生能源开发等领域取得的显著成就，以及与100多个国家在绿色能源项目上的合作。深远影响体现在中国为全球绿色转型做出的贡献，包括降低能耗强度、改善空气质量、提供大量可再生能源装备等。这篇新闻属于中国的政治和宏观类别。",
         "source": "人民网",
         "region": "中国",
-        "type": "政策",
+        "type": "政治、宏观",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494859.html",
         "isImportant": false,
         "keyword": ""
@@ -596,7 +596,7 @@ const newsData = [
     {
         "id": 55,
         "title": "来自神舟二十号的“太空问候”！中国航天员为世博会中国馆送祝福",
-        "summary": "💡 深度简报：这篇新闻的核心事件是中国航天员通过神舟二十号空间站，向2025大阪世博会中国馆发送太空祝福。背景细节包括：中国馆是世博园内的亮点，以“绿色发展的未来社会”为主题，展示中国在科技创新、绿色发展和文化传承方面的成就。航天员陈冬、陈中瑞、王杰分别从空间站传达了对世博会的良好祝愿和对地球环境的保护意识。深远影响体现在提升了中国的国际形象，强调了对绿色发展和技术创新的重视，并促进了全球航天合作的意识。",
+        "summary": "💡 深度简报：这篇新闻的核心事件是中国航天员通过神舟二十号空间站向2025大阪世博会中国馆送来了来自太空的祝福。背景细节包括：中国馆以“共同构建人与自然生命共同体——绿色发展的未来社会”为主题，吸引了众多参观者；三位航天员分别表达了他们的祝福和对地球环境保护的承诺。深远影响体现在展示了中国在航天科技、绿色发展及文化传承方面的成就，同时强调了人类对太空探索和地球环境保护的共同责任。",
         "source": "人民网",
         "region": "中国",
         "type": "科技",
@@ -607,7 +607,7 @@ const newsData = [
     {
         "id": 56,
         "title": "外交部回应美方宣布将对哈佛大学国际学生实行签证限制",
-        "summary": "💡 深度简报：美国宣布将对哈佛大学国际学生实行签证限制，中国外交部发言人表示，这一做法损害了美国的形象和国际信誉，并强调中国将维护海外中国学生和学者的合法权益。这一事件反映了中美在教育领域的紧张关系，可能对中美两国及全球的教育交流产生深远影响。",
+        "summary": "💡 深度简报：美国近日宣布将对哈佛大学国际学生实行签证限制。中国外交部发言人林剑在例行记者会上对此回应，强调中美教育合作是互利的，中方反对将教育合作政治化。美方此举被认为会损害美国形象和国际信誉，中国将坚定维护海外中国学生和学者的合法权益。此事件涉及国际教育政策，可能对中美两国关系及全球教育交流产生深远影响。",
         "source": "人民网",
         "region": "中国",
         "type": "政治",
@@ -618,10 +618,10 @@ const newsData = [
     {
         "id": 57,
         "title": "中日气候变化问题专家交流会在东京举行",
-        "summary": "💡 深度简报：6月3日，在东京举行的中日气候变化问题专家交流会上，来自中国和日本的专家学者就低碳经济转型、碳排放权交易市场的创新与发展、数字碳中和的创新与实践等议题进行了深入讨论。此次活动由日本笹川和平财团笹川日中友好基金主办，旨在深化两国在绿色低碳领域的合作。与会专家一致认为，中日两国在推动实现脱碳社会转型的进程中具有广阔的合作空间和巨大的发展潜力。这是笹川日中友好基金第二次邀请中国环境问题专家访日，对促进两国在气候变化领域的交流与合作具有重要意义。",
+        "summary": "💡 深度简报：2025年6月3日，在东京举行的中日气候变化问题专家交流会上，来自中国和日本的专家学者围绕低碳经济转型、碳排放权交易市场的创新与发展、数字碳中和的创新与实践等议题进行了深入讨论。会议由日本笹川和平财团笹川日中友好基金主办，吸引了包括美中新视角基金会主席周志兴、清华大学能源环境经济研究所所长张希良等在内的十余名中日专家参与。与会专家一致认为，中日两国在实现脱碳社会转型方面具有广阔的合作空间和巨大潜力，并希望主办方继续举办此类活动，推动两国在绿色低碳领域的合作。这是笹川日中友好基金第二次邀请中国环境问题专家访日，标志着中日两国在气候变化领域的合作不断深化。",
         "source": "人民网",
         "region": "中国",
-        "type": "政策",
+        "type": "科技",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494622.html",
         "isImportant": false,
         "keyword": ""
@@ -629,10 +629,10 @@ const newsData = [
     {
         "id": 58,
         "title": "法国巴黎西岱大学孔院勇夺第24届“汉语桥”世界大学生中文比赛法国冠军",
-        "summary": "💡 深度简报：巴黎西岱大学孔子学院在第24届‘汉语桥’世界大学生中文比赛中勇夺法国冠军。本次比赛由中国驻法大使馆主办，欧洲时报文化传媒集团承办。来自巴黎西岱大学孔子学院等九家单位的14名选手参加了比赛，经过多轮激烈角逐，最终巴黎西岱大学孔子学院的马爱乐同学获得一等奖，尼古拉同学获得三等奖。巴黎西岱大学孔子学院已连续三年获得法国赛区冠军，展示了卓越的教学水平和品牌影响力。比赛不仅促进了汉语教学，也增进了中法文化交流。",
+        "summary": "💡 深度简报：巴黎西岱大学孔子学院在第24届‘汉语桥’世界大学生中文比赛中获得法国赛区冠军。此次比赛由中国驻法大使馆主办，欧洲时报文化传媒集团承办。比赛于5月30日至31日在巴黎举行，来自巴黎西岱大学孔子学院等9家单位的14名选手参加。巴黎西岱大学孔子学院的马爱乐凭借标准的中文发音和幽默的风格获得评委一致好评，最终获得一等奖。此次胜利标志着巴黎西岱大学孔子学院在汉语教学领域的卓越成就，同时也提升了孔子学院的品牌形象和国际影响力。",
         "source": "人民网",
         "region": "欧洲",
-        "type": "文化",
+        "type": "教育",
         "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494621.html",
         "isImportant": false,
         "keyword": ""
@@ -640,7 +640,7 @@ const newsData = [
     {
         "id": 59,
         "title": "远景法国超级工厂投产 中法携手引领绿色能源转型",
-        "summary": "💡 深度简报：远景动力在法国杜埃的电池超级工厂正式投产，标志着中法两国在绿色能源和先进制造领域的合作成果。该工厂首期产能为10GWh，预计每年为约20万辆电动汽车提供动力电池，主要供应雷诺等车企。工厂预计到2030年将建成总产能24GWh，并具备扩容至40GWh的潜力。未来，该基地还将涵盖储能电池、智能充电设施与电池回收等全生命周期解决方案，构建法国北部地区完整的绿色能源产业生态。法国总统马克龙出席投产仪式并致辞，强调远景动力对法国绿色发展的贡献，并感谢其作为技术实力和全球视野的合作伙伴，共同引领欧洲能源转型和产业革新。远景动力已在全球多个地区布局电池制造基地，致力于以中国新能源技术助力全球可持续发展。",
+        "summary": "💡 深度简报：远景动力在法国杜埃的电池超级工厂正式投产，标志着中法两国在绿色能源和先进制造领域的合作成果。该工厂首期产能为10GWh，预计为约20万辆电动汽车提供动力电池，主要供应雷诺等车企。工厂预计到2030年总产能将达到24GWh，并具备扩容至40GWh的潜力。未来，工厂还将提供储能电池、智能充电设施与电池回收等全生命周期解决方案，构建法国北部地区的绿色能源产业生态。法国总统马克龙出席并致辞，强调这是法国工业振兴与能源转型的象征性事件，并感谢远景对法国绿色发展的贡献。远景动力在全球多个国家布局制造基地，此次投产为欧洲汽车产业的绿色转型注入活力。",
         "source": "人民网",
         "region": "欧洲",
         "type": "财经",
@@ -651,7 +651,7 @@ const newsData = [
     {
         "id": 60,
         "title": "2025第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展开幕",
-        "summary": "💡 深度简报：2025年6月4日，第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展在雅加达展览中心开幕。展会聚焦印尼工业化4.0升级需求，展品涵盖新能源、汽摩配、农业机械等15大品类，展示中国制造业实力。展览面积达40,000平方米，吸引了来自中国及印尼、日本等国的1,000多家企业参展。为促进中印尼工业合作，展会前期已在印尼多个城市举办路演活动，并与印尼企业达成合作。展会采用智能化手段，首次应用AI辅助行为和客户画像分析，为展商提供外贸跟单建议。",
+        "summary": "💡 深度简报：2025年6月4日，第九届中国（印尼）出口品牌联展暨印尼雅加达国际工业联展在雅加达展览中心开幕。展会聚焦印尼工业化4.0升级需求，覆盖新能源、汽摩配、农业机械等15大工业品类。展览面积达40,000平方米，是RCEP区域最大的工业题材展会，吸引了来自中国及印尼等国的1000多家企业参展。展会旨在促进中印尼两国工业领域的深度交流和合作，通过路演、论坛等活动，搭建产业对接桥梁。印尼展还首次应用AI辅助行为和客户画像分析功能，提升展商应用率至30%。",
         "source": "人民网",
         "region": "中国",
         "type": "财经",
